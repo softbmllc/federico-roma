@@ -1,0 +1,84 @@
+{
+    "hero": {
+      "subtitle": "CAMPEÓN MUNDIAL\nINSTRUCTOR DE BOXEO Y KICKBOXING\nMUAY THAI TRADICIONAL",
+      "readMore": "Leer más",
+      "contact": "Contacto",
+      "ctaBiography": "Ver Biografía",
+      "ctaBookClass": "Reservar clase"
+    },
+    "nav": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "classes": "Clases",
+      "gallery": "Galería",
+      "testimonials": "Testimonios",
+      "sponsors": "Sponsors",
+      "contact": "Contacto"
+    }
+  ,
+
+  "about": {
+  "title": "Sobre mí",
+  "description": "Soy Federico Roma, campeón mundial de Muay Thai y Kickboxing. Con más de 20 años de trayectoria, me formé en Tailandia, representé a Argentina en peleas internacionales y soy reconocido por mi estilo agresivo, respetuoso y técnico.\n\nActualmente me dedico a entrenar, competir y formar a nuevos atletas a través de clases y seminarios en todo el mundo."
+},
+  "classes": {
+    "title": "Clases y Entrenamientos",
+    "subtitle": "Entrená conmigo en clases personalizadas, grupales o seminarios internacionales.",
+    "options": {
+      "inPerson": "Clases presenciales",
+      "online": "Entrenamiento online",
+      "seminars": "Seminarios internacionales"
+    },
+    "cta": "Ver horarios o reservar"
+  },
+  "gallery": {
+    "title": "Galería Multimedia"
+  },
+  "testimonials": {
+    "title": "Testimonios",
+    "subtitle": "Lo que dicen alumnos y colegas",
+    "list": [
+      {
+        "quote": "Entrenar con Fede cambió mi forma de ver el kickboxing.",
+        "author": "Martín R., Buenos Aires"
+      },
+      {
+        "quote": "Su experiencia internacional es impresionante. Un maestro de verdad.",
+        "author": "Lucía P., Córdoba"
+      },
+      {
+        "quote": "Las clases con Federico son intensas, técnicas y muy motivadoras.",
+        "author": "Diego T., Rosario"
+      }
+    ]
+  },
+  "sponsors": {
+    "title": "Sponsors Oficiales",
+    "description": "Federico está orgullosamente respaldado por estas marcas que comparten su visión de excelencia, disciplina y alto rendimiento."
+  },
+  "contact": {
+    "title": "Contacto",
+    "description": "¿Querés entrenar conmigo, reservar un seminario o simplemente escribir? Usá el formulario o contactame por redes.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "send": "Enviar"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "email": "Correo"
+    }
+  },
+  "home": {
+    "title": "Federico Roma - The Little Big Man",
+    "subtitle": "Campeón mundial y entrenador de Kickboxing y Muay Thai",
+    "cta": "Conocé más sobre mi historia"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "La página que buscás no existe o fue movida.",
+    "cta": "Volver al inicio"
+  }
+}

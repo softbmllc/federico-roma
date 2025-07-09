@@ -1,0 +1,80 @@
+{
+    "hero": {
+      "subtitle": "WORLD CHAMPION\nBOXING & KICKBOXING COACH\nTRADITIONAL MUAY THAI",
+      "ctaBiography": "VIEW BIOGRAPHY",
+      "ctaBookClass": "BOOK CLASS"
+    },
+    "nav": {
+      "home": "Home",
+      "about": "About Me",
+      "classes": "Classes",
+      "gallery": "Gallery",
+      "testimonials": "Testimonials",
+      "sponsors": "Sponsors",
+      "contact": "Contact"
+    },
+  "about": {
+    "title": "About Me",
+    "description": "I’m Federico Roma, world champion in Muay Thai and Kickboxing. With over 20 years of experience, I trained in Thailand, represented Argentina in international fights, and I'm known for my aggressive, respectful, and technical style.\n\nI currently focus on training, competing, and teaching new athletes through classes and seminars worldwide."
+  },
+  "classes": {
+    "title": "Classes & Training",
+    "subtitle": "Train with me through private sessions, group classes or international seminars.",
+    "options": {
+      "inPerson": "In-person classes",
+      "online": "Online training",
+      "seminars": "International seminars"
+    },
+    "cta": "View schedule or book now"
+  }
+,
+  "gallery": {
+    "title": "Media Gallery"
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "What students and colleagues say",
+    "list": [
+      {
+        "quote": "Training with Fede changed the way I see kickboxing.",
+        "author": "Martín R., Buenos Aires"
+      },
+      {
+        "quote": "His international experience is impressive. A true master.",
+        "author": "Lucía P., Córdoba"
+      },
+      {
+        "quote": "Classes with Federico are intense, technical, and very motivating.",
+        "author": "Diego T., Rosario"
+      }
+    ]
+  },
+  "sponsors": {
+    "title": "Sponsors",
+    "description": "Thanks to the brands and institutions that support my career and help me grow as a professional athlete."
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Want to train with me, book a seminar or just reach out? Use the form or contact me via social media.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "whatsapp": "WhatsApp",
+      "email": "Email"
+    }
+  }
+,
+  "home": {
+    "title": "Federico Roma - The Little Big Man"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Oops! The page you’re looking for doesn’t exist.",
+    "backHome": "Go back to homepage"
+  }
+}

@@ -1,0 +1,11 @@
+/* index.css - estilos base */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos globales opcionales */
+html,
+body {
+  scroll-behavior: smooth;
+}
