@@ -18,7 +18,7 @@ export default function HeroSection() {
   const { t } = useTranslation();
 
   return (
-    <section className="relative flex items-start justify-start bg-black text-white -mt-[64px] pt-[4vh] sm:pt-[8vh] md:pt-[8rem] overflow-hidden w-full" style={{ minHeight: 'calc(var(--vh, 1vh) * 100)' }}>
+    <section className="relative flex items-start justify-start bg-black text-white pt-[64px] sm:pt-[calc(64px+8vh)] md:pt-[8rem] overflow-hidden w-full" style={{ minHeight: 'calc(var(--vh, 1vh) * 100)' }}>
       {/* Imagen desktop */}
       <div
         className="absolute inset-0 bg-cover bg-no-repeat bg-right-top hidden md:block"
