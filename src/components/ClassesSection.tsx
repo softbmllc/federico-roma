@@ -60,9 +60,14 @@ export default function ClassesSection() {
         </div>
 
         <div className="mt-10">
-          <button className="bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-md hover:bg-orange-700 transition">
+          <a
+            href="https://wa.me/16454442941"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-md hover:bg-orange-700 transition"
+          >
             {t("classes.ctaV2")}
-          </button>
+          </a>
           <p className="mt-4 text-sm text-gray-500">
             Consultá disponibilidad por WhatsApp o reservá desde la agenda online.
           </p>
