@@ -15,17 +15,18 @@
     },
   "about": {
     "title": "About Me",
-    "description": "I’m Federico Roma, world champion in Muay Thai and Kickboxing. With over 20 years of experience, I trained in Thailand, represented Argentina in international fights, and I'm known for my aggressive, respectful, and technical style.\n\nI currently focus on training, competing, and teaching new athletes through classes and seminars worldwide."
+    "description": "I’m Federico Roma, world champion in Muay Thai and Kickboxing. With over 20 years of experience, I trained in Thailand, represented Argentina in international fights, and I'm known for my aggressive, respectful, and technical style.\n\nI currently focus on training, competing, and teaching new athletes through classes and seminars worldwide.",
+    "button": "Learn more about me"
   },
   "classes": {
     "title": "Classes & Training",
-    "subtitle": "Train with me through private sessions, group classes or international seminars.",
+    "subtitleV2": "Choose how you want to train: one-on-one, in groups, or at international seminars.",
     "options": {
-      "inPerson": "In-person classes",
-      "online": "Online training",
-      "seminars": "International seminars"
+      "personalized": "Private classes",
+      "group": "Group classes",
+      "seminars": "seminars"
     },
-    "cta": "View schedule or book now"
+    "ctaV2": "Book your class"
   }
 ,
   "gallery": {

@@ -12,14 +12,13 @@ import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ClassesSection from "./components/ClassesSection";
 import GallerySection from "./components/GallerySection";
-import './App.css';
 
 export default function App() {
   return (
-    <div className="bg-black text-white min-h-screen font-sans">
+    <div className="min-h-screen font-sans bg-white text-black">
       <Navbar />
       <HeroSection />
-      <main className="max-w-screen-xl mx-auto px-4">
+      <main className="w-full">
         <Routes>
           <Route
             path="/"
