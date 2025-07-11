@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
 import { HiMenu, HiX } from "react-icons/hi";
-import { FiInstagram, FiPhone, FiGlobe } from "react-icons/fi";
+import { FiInstagram, FiGlobe } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
 export default function Navbar() {
@@ -35,7 +35,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="relative w-full bg-black/70 backdrop-blur-sm text-white shadow-md sticky top-0 z-50">
+    <header className="w-full bg-black/70 backdrop-blur-sm text-white shadow-md fixed top-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between" aria-label="Main Navigation">
         {/* Logo / Nombre */}
         <Link
