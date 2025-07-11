@@ -11,14 +11,15 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/AboutSection";
 import ClassesSection from "./components/ClassesSection";
-import GallerySection from "./components/GallerySection";
+import GallerySection from "./components/FedericoSlider";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="min-h-screen font-sans bg-white text-black">
+    <div className="font-sans bg-black text-white">
       <Navbar />
       <HeroSection />
-      <main className="w-full">
+      <main className="w-full min-h-[60vh]">
         <Routes>
           <Route
             path="/"
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 }

@@ -52,7 +52,14 @@ export default function HeroSection() {
         {/* Botones */}
         <div className="mt-[6vh] sm:mt-[6vh] moblg:mt-[18vh] flex flex-col md:flex-row gap-4 text-left md:justify-start mb-10 max-w-[900px] px-1.5 sm:px-6">
           <Button variant="primary" labelKey="hero.ctaBiography" />
-          <Button variant="secondary" labelKey="hero.ctaBookClass" />
+          <a
+            href="https://wa.me/16454442941"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full"
+          >
+            <Button variant="secondary" labelKey="hero.ctaBookClass" className="block w-full md:w-auto" />
+          </a>
         </div>
       </div>
     </section>

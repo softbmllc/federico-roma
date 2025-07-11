@@ -3,7 +3,7 @@
 import HeroSection from "../components/HeroSection";
 import AboutSection from "../components/AboutSection";
 import ClassesSection from "../components/ClassesSection";
-import GallerySection from "../components/GallerySection";
+import GallerySection from "../components/FedericoSlider";
 
 const Home: React.FC = () => {
   return (

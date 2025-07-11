@@ -2,7 +2,7 @@
 
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
-import GallerySection from "../components/GallerySection";
+import GallerySection from "../components/FedericoSlider";
 
 const Gallery: React.FC = () => {
   const { t } = useTranslation();

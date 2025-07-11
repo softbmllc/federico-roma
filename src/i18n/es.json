@@ -81,5 +81,27 @@
     "title": "Página no encontrada",
     "description": "La página que buscás no existe o fue movida.",
     "cta": "Volver al inicio"
+  },
+  "federicoSlider": {
+    "slide1": {
+      "title": "Federico Roma",
+      "subtitle": "Campeón mundial de Muay Thai y entrenador profesional"
+    },
+    "slide2": {
+      "title": "Entrená con disciplina y corazón",
+      "subtitle": "Fortalecé cuerpo, mente y confianza a través del arte marcial"
+    },
+    "slide3": {
+      "title": "Clases grupales y personalizadas",
+      "subtitle": "Ya sea que empieces o quieras competir, te acompaño en tu proceso"
+    },
+    "slide4": {
+      "title": "Preparación física y mental",
+      "subtitle": "Acondicionamiento, técnica y mentalidad — todo en uno"
+    },
+    "slide5": {
+      "title": "Seminarios y entrenamientos internacionales",
+      "subtitle": "Sumate a mis workshops y llevá tu nivel al máximo"
+    }
   }
 }

@@ -1,7 +1,7 @@
 {
     "hero": {
       "subtitle": "WORLD CHAMPION\nBOXING & KICKBOXING COACH\nTRADITIONAL MUAY THAI",
-      "ctaBiography": "VIEW BIOGRAPHY",
+      "ctaBiography": "BIOGRAPHY",
       "ctaBookClass": "BOOK CLASS"
     },
     "nav": {
@@ -77,5 +77,27 @@
     "title": "Page Not Found",
     "description": "Oops! The page you’re looking for doesn’t exist.",
     "backHome": "Go back to homepage"
+  },
+  "federicoSlider": {
+    "slide1": {
+      "title": "Federico Roma",
+      "subtitle": "Muay Thai world champion and professional coach"
+    },
+    "slide2": {
+      "title": "Train with discipline and heart",
+      "subtitle": "Build strength, confidence, and resilience through martial arts"
+    },
+    "slide3": {
+      "title": "Group and personal classes",
+      "subtitle": "Whether you're starting out or preparing to compete, I’ll guide your training"
+    },
+    "slide4": {
+      "title": "Physical and mental preparation",
+      "subtitle": "Conditioning, technique, mindset — all in one process"
+    },
+    "slide5": {
+      "title": "Seminars and international training",
+      "subtitle": "Join my workshops around the world and elevate your performance"
+    }
   }
 }
