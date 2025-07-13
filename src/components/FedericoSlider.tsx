@@ -61,7 +61,7 @@ export default function FedericoSlider() {
   };
 
   return (
-    <section className="relative w-full bg-black overflow-hidden">
+    <section className="relative w-full overflow-hidden">
       <Swiper
         modules={[Pagination, Autoplay, Navigation, Mousewheel]}
         pagination={{ clickable: true }}
@@ -90,7 +90,7 @@ export default function FedericoSlider() {
               <img
                 src={isMobile && slide.mobileMediaUrl ? slide.mobileMediaUrl : slide.mediaUrl}
                 alt={slide.title}
-                className="absolute inset-0 w-full h-full object-cover"
+                className={`absolute inset-0 w-full h-full ${index === 2 || index === 4 ? 'object-[bottom]' : 'object-cover'}`}
               />
               <div className="absolute inset-0 bg-black/40" />
               <motion.div
@@ -99,10 +99,10 @@ export default function FedericoSlider() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
               >
-                <h2 className="text-3xl sm:text-5xl font-extrabold mb-4 text-white drop-shadow-[0_3px_6px_rgba(0,0,0,0.8)] tracking-tight">
+                <h2 className="text-3xl sm:text-5xl font-extrabold mb-4 text-white drop-shadow-[0_4px_10px_rgba(0,0,0,0.9)] tracking-tight">
                   {slide.title}
                 </h2>
-                <p className="text-lg sm:text-xl font-light text-white/90 drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] mb-6">
+                <p className="text-lg sm:text-xl font-light text-white drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)] mb-6">
                   {slide.subtitle}
                 </p>
               </motion.div>

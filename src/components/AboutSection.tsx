@@ -36,7 +36,7 @@ export default function AboutSection() {
 
       <div className="mt-10 w-full max-w-7xl mx-auto px-4 md:px-10">
         <div className="text-center mb-6">
-          <h3 className="text-2xl font-semibold mb-2">
+          <h3 className="text-4xl font-extrabold uppercase tracking-wide mb-2">
             {t("about.videoTitle")}
           </h3>
           <p className="text-gray-700 text-lg">
