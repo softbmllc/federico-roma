@@ -37,8 +37,12 @@ export default function HeroSection() {
         {/* Título */}
         <div className="pt-[8vh] sm:pt-[10vh] md:pt-[8vh] lg:pt-[10vh] text-left">
           <h1 className="font-display font-extrabold leading-[0.8] tracking-tight w-full">
+            <span className="sr-only">{t("hero.srTitle")}</span>
             <div className="text-white text-[4rem] md:text-[8rem] lg:text-[10rem] drop-shadow-lg uppercase">FEDERICO</div>
-            <div className="text-[#f59e0b] text-[4rem] md:text-[8rem] lg:text-[10rem] drop-shadow-lg uppercase mt-[0.5rem] md:mt-[1rem]">ROMA</div>
+            <div className="text-white text-[4rem] md:text-[8rem] lg:text-[10rem] drop-shadow-lg uppercase mt-[0.5rem] md:mt-[1rem]">ROMA</div>
+            <div className="text-[#f59e0b] text-[1.25rem] md:text-[2.3rem] lg:text-[3.1rem] drop-shadow-lg uppercase mt-[0.25rem] tracking-tight" style={{ letterSpacing: '-0.035em' }}>
+              THE LITTLE BIG MAN
+            </div>
           </h1>
         </div>
 
@@ -62,6 +66,11 @@ export default function HeroSection() {
           </a>
         </div>
       </div>
+      <img
+        src="https://ik.imagekit.io/devrodri/5.jpg?tr=w-1920,h-1080,c-at_max"
+        alt="Federico Roma de espaldas con cinturón de campeón"
+        className="sr-only"
+      />
     </section>
   );
 }

@@ -4,7 +4,8 @@
       "readMore": "Leer más",
       "contact": "Contacto",
       "ctaBiography": "Ver Biografía",
-      "ctaBookClass": "Reservar clase"
+      "ctaBookClass": "Reservar clase",
+      "srTitle": "Federico Roma – Campeón Mundial de Muay Thai y Kickboxing"
     },
     "nav": {
       "home": "Inicio",
@@ -22,7 +23,7 @@
     "description": "Soy Federico Roma, ex campeón mundial de Muay Thai y Kickboxing. Con más de 20 años de experiencia, me formé en la Escuela de Campeones Dojo Serpiente y en campos de entrenamiento en Tailandia. Competí en Uruguay, Perú, México, Francia, Polonia, Japón, Tailandia e Indonesia.\n\nComo coach, trabajé con grupos de competidores amateurs y profesionales, representando a selecciones argentinas en eventos como Glory Kickboxing, RISE (Japón) y WGP. He formado campeones en distintas disciplinas, y también ofrezco clases personalizadas, donde transmito el arte con la misma pasión, ayudando a mis alumnos a lograr objetivos como perder peso, mejorar su técnica o ganar confianza.",
     "button": "Conocé más sobre mí",
     "videoTitle": "Videos destacados",
-    "videoSubtitle": "Entrevistas, técnica y reflexiones sobre el camino del arte marcial."
+    "videoSubtitle": "Camino al título mundial y entrevista técnica en TV"
   },
   "classes": {
     "title": "Clases y Entrenamientos",
@@ -32,7 +33,12 @@
       "group": "Clases grupales",
       "seminars": "Seminarios"
     },
-    "ctaV2": "Reservá tu clase"
+    "ctaV2": "Reservá tu clase",
+    "imageAltPersonalized": "Federico Roma dando clase personalizada de boxeo",
+    "imageAltGroup": "Clase grupal de kickboxing con Federico Roma",
+    "imageAltSeminar": "Seminario internacional dictado por Federico Roma",
+    "seoTitle": "Entrenamientos con Federico Roma | Clases personalizadas, grupales y seminarios",
+    "seoDescription": "Entrená con Federico Roma, campeón mundial de Muay Thai y Kickboxing. Elegí entre clases 1 a 1, grupos reducidos o seminarios internacionales."
   },
   "gallery": {
     "title": "Galería Multimedia"
@@ -77,7 +83,9 @@
   "home": {
     "title": "Federico Roma - The Little Big Man",
     "subtitle": "Campeón mundial y entrenador de Kickboxing y Muay Thai",
-    "cta": "Conocé más sobre mi historia"
+    "cta": "Conocé más sobre mi historia",
+    "seoTitle": "Federico Roma | Campeón mundial de Muay Thai y Kickboxing",
+    "seoDescription": "Conocé la historia, trayectoria y entrenamientos de Federico Roma, campeón mundial argentino de Muay Thai y Kickboxing. Clases, videos y más."
   },
   "notFound": {
     "title": "Página no encontrada",

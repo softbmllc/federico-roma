@@ -12,7 +12,7 @@ export default function AboutSection() {
         <div className="w-full md:w-1/2">
           <img
             src="/federico-humano.jpg" // Reemplazar con imagen real en /public
-            alt="Federico Roma"
+            alt={t("about.imageAlt")}
             className="w-full rounded-lg shadow-lg object-cover"
           />
         </div>

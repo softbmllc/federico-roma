@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://federicoroma.com/sitemap.xml

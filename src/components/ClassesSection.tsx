@@ -36,6 +36,11 @@ export default function ClassesSection() {
             const imageNames = ["personalizadas", "grupales", "seminarios"];
             const imageUrl = `/images/${imageNames[index]}.jpg`;
             const imagePosition = index === 1 ? "center 30%" : "center";
+            const altTexts = [
+              t("classes.imageAltPersonalized"),
+              t("classes.imageAltGroup"),
+              t("classes.imageAltSeminar")
+            ];
 
             return (
               <div
@@ -46,6 +51,7 @@ export default function ClassesSection() {
                   backgroundSize: "cover",
                   backgroundPosition: imagePosition,
                 }}
+                aria-label={altTexts[index]}
               >
                 <div className="absolute inset-0 bg-black/30 group-hover:bg-black/20 transition duration-300"></div>
                 <div className="relative z-10 h-full flex flex-col items-center justify-center text-white text-center px-4">
@@ -54,6 +60,11 @@ export default function ClassesSection() {
                     {item.title}
                   </h3>
                 </div>
+                <img
+                  src={imageUrl}
+                  alt={altTexts[index]}
+                  className="sr-only"
+                />
               </div>
             );
           })}

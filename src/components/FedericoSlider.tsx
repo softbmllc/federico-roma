@@ -92,6 +92,11 @@ export default function FedericoSlider() {
                 alt={slide.title}
                 className={`absolute inset-0 w-full h-full ${index === 2 || index === 4 ? 'object-[bottom]' : 'object-cover'}`}
               />
+              <img
+                src={isMobile && slide.mobileMediaUrl ? slide.mobileMediaUrl : slide.mediaUrl}
+                alt={slide.subtitle}
+                className="sr-only"
+              />
               <div className="absolute inset-0 bg-black/40" />
               <motion.div
                 className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-6"

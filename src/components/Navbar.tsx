@@ -41,6 +41,7 @@ export default function Navbar() {
         <Link
           to="/"
           className="flex items-center gap-2 text-base sm:text-xl font-extrabold tracking-wide text-white uppercase"
+          aria-label="Inicio – Página principal de Federico Roma"
         >
           <img
             src="/Logo.png"
@@ -77,15 +78,19 @@ export default function Navbar() {
             <NavLink
               key={item.to}
               to={item.to}
-              className={({ isActive }) =>
-                `uppercase tracking-wide text-sm font-semibold transition duration-300 ${
-                  isActive
-                    ? "text-orange-400 border-b-2 border-orange-400 pb-1"
-                    : "text-white hover:text-orange-400"
-                }`
-              }
             >
-              {t(`nav.${item.key}`)}
+              {({ isActive }) => (
+                <span
+                  className={`uppercase tracking-wide text-sm font-semibold transition duration-300 ${
+                    isActive
+                      ? "text-orange-400 border-b-2 border-orange-400 pb-1"
+                      : "text-white hover:text-orange-400"
+                  }`}
+                  aria-current={isActive ? "page" : undefined}
+                >
+                  {t(`nav.${item.key}`)}
+                </span>
+              )}
             </NavLink>
           ))}
 
