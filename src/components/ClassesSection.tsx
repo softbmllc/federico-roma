@@ -35,7 +35,7 @@ export default function ClassesSection() {
           {classOptions.map((item, index) => {
             const imageNames = ["personalizadas", "grupales", "seminarios"];
             const imageUrl = `/images/${imageNames[index]}.jpg`;
-            const imagePosition = index === 1 ? "top center" : "center";
+            const imagePosition = index === 1 ? "center 30%" : "center";
 
             return (
               <div

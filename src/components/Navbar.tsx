@@ -40,9 +40,14 @@ export default function Navbar() {
         {/* Logo / Nombre */}
         <Link
           to="/"
-          className="text-xl md:text-2xl font-extrabold tracking-widest text-white uppercase"
+          className="flex items-center gap-2 text-base sm:text-xl font-extrabold tracking-wide text-white uppercase"
         >
-          FEDERICO <span className="text-orange-400">ROMA</span>
+          <img
+            src="/Logo.png"
+            alt="Logo de Federico Roma"
+            className="w-6 h-6 sm:w-8 sm:h-8 object-contain"
+          />
+          <span className="leading-none tracking-tight">FEDERICO ROMA</span>
         </Link>
 
         <div className="flex items-center gap-4 ml-4">

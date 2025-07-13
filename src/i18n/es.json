@@ -19,8 +19,10 @@
 
   "about": {
     "title": "Sobre mí",
-    "description": "Soy Federico Roma, campeón mundial de Muay Thai y Kickboxing. Con más de 20 años de trayectoria, me formé en Tailandia, representé a Argentina en peleas internacionales y soy reconocido por mi estilo agresivo, respetuoso y técnico.\n\nActualmente me dedico a entrenar, competir y formar a nuevos atletas a través de clases y seminarios en todo el mundo.",
-    "button": "Conocé más sobre mí"
+    "description": "Soy Federico Roma, ex campeón mundial de Muay Thai y Kickboxing. Con más de 20 años de experiencia, me formé en la Escuela de Campeones Dojo Serpiente y en campos de entrenamiento en Tailandia. Competí en Uruguay, Perú, México, Francia, Polonia, Japón, Tailandia e Indonesia.\n\nComo coach, trabajé con grupos de competidores amateurs y profesionales, representando a selecciones argentinas en eventos como Glory Kickboxing, RISE (Japón) y WGP. He formado campeones en distintas disciplinas, y también ofrezco clases personalizadas, donde transmito el arte con la misma pasión, ayudando a mis alumnos a lograr objetivos como perder peso, mejorar su técnica o ganar confianza.",
+    "button": "Conocé más sobre mí",
+    "videoTitle": "Videos destacados",
+    "videoSubtitle": "Entrevistas, técnica y reflexiones sobre el camino del arte marcial."
   },
   "classes": {
     "title": "Clases y Entrenamientos",
@@ -85,7 +87,7 @@
   "federicoSlider": {
     "slide1": {
       "title": "Federico Roma",
-      "subtitle": "Campeón mundial de Muay Thai y entrenador profesional"
+      "subtitle": "Campeón mundial de Muay Thai, Kickboxing y entrenador profesional"
     },
     "slide2": {
       "title": "Entrená con disciplina y corazón",

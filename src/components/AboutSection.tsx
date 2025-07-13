@@ -33,6 +33,41 @@ export default function AboutSection() {
           </a>
         </div>
       </div>
+
+      <div className="mt-10 w-full max-w-7xl mx-auto px-4 md:px-10">
+        <div className="text-center mb-6">
+          <h3 className="text-2xl font-semibold mb-2">
+            {t("about.videoTitle")}
+          </h3>
+          <p className="text-gray-700 text-lg">
+            {t("about.videoSubtitle")}
+          </p>
+        </div>
+        <div className="flex flex-col md:flex-row gap-4 w-full">
+          <div className="w-full md:w-1/2">
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://www.youtube.com/embed/V8Q420T1bcY"
+                title="Federico Roma - Cicatrices"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-md"
+              ></iframe>
+            </div>
+          </div>
+          <div className="w-full md:w-1/2">
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://www.youtube.com/embed/BAdq2RwcNiY"
+                title="Federico Roma - Full Contact TV"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full rounded-lg shadow-md"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 }

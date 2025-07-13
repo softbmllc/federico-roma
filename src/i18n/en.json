@@ -15,8 +15,10 @@
     },
   "about": {
     "title": "About Me",
-    "description": "I’m Federico Roma, world champion in Muay Thai and Kickboxing. With over 20 years of experience, I trained in Thailand, represented Argentina in international fights, and I'm known for my aggressive, respectful, and technical style.\n\nI currently focus on training, competing, and teaching new athletes through classes and seminars worldwide.",
-    "button": "Learn more about me"
+    "description": "I’m Federico Roma, former world champion in Muay Thai and Kickboxing. With over 20 years of experience, I trained at the Escuela de Campeones Dojo Serpiente and in training camps across Thailand. I’ve competed in countries such as Uruguay, Peru, Mexico, France, Poland, Japan, Thailand, and Indonesia.\n\nAs a coach, I’ve worked with both amateur and professional fighters, representing Argentina in international events like Glory Kickboxing, RISE (Japan), and WGP. I’ve trained champions across multiple disciplines, and I also offer personalized classes, where I teach the art with the same passion — helping my students reach goals like weight loss, improved technique, and greater confidence.",
+    "button": "Learn more about me",
+    "videoTitle": "Featured Videos",
+    "videoSubtitle": "In these videos I share my story as an athlete, along with technical breakdowns, combinations and live coaching."
   },
   "classes": {
     "title": "Classes & Training",
@@ -81,7 +83,7 @@
   "federicoSlider": {
     "slide1": {
       "title": "Federico Roma",
-      "subtitle": "Muay Thai world champion and professional coach"
+      "subtitle": "Muay Thai and Kickboxing world champion, and professional coach"
     },
     "slide2": {
       "title": "Train with discipline and heart",
