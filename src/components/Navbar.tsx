@@ -169,12 +169,9 @@ export default function Navbar() {
       {mobileMenuOpen && (
         <div className="absolute top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-sm text-white flex flex-col pb-10">
           <div className="flex items-center justify-between px-4 py-4">
-            <Link
-              to="/"
-              className="text-xl font-extrabold tracking-widest text-white uppercase"
-            >
-              FEDERICO <span className="text-orange-400">ROMA</span>
-            </Link>
+            <div className="text-xl font-extrabold tracking-widest text-orange-400 uppercase">
+              THE LITTLE BIG MAN
+            </div>
             <div>
               <button
                 onClick={() => setMobileMenuOpen(false)}
