@@ -87,6 +87,11 @@ export default function About() {
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.lossAndStrength.p2")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.lossAndStrength.p3")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.lossAndStrength.p4")}</p>
+          <img
+            src="/images/about/amuletos.jpg"
+            alt="Federico mostrando los amuletos de su nono y su papá"
+            className="rounded-xl mt-6 mx-auto w-full max-w-md shadow-lg"
+          />
           
         </section>
 
