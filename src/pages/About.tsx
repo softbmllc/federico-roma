@@ -128,7 +128,7 @@ export default function About() {
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.careerPath.p2")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.careerPath.p3")}</p>
 
-          <h2 className="text-2xl font-bold text-[#f59e0b] mt-10 mb-4">{t("aboutPage.fightRecord.title")}</h2>
+          <h2 className="text-2xl font-bold text-[#f59e0b] mt-10 mb-4">{t("aboutPage.fightRecord.titlesHeading")}</h2>
           <ul className="text-lg leading-loose mb-6">
             <li className="flex items-center gap-2"><GiBoxingGlove /> {t("aboutPage.fightRecord.line1")}</li>
             <li className="flex items-center gap-2"><HiCheckCircle className="text-green-500" /> {t("aboutPage.fightRecord.line2")}</li>
@@ -137,8 +137,7 @@ export default function About() {
             <li className="flex items-center gap-2"><GiLaurels className="text-yellow-500" /> {t("aboutPage.fightRecord.line5")}</li>
           </ul>
 
-          <h3 className="text-xl font-semibold text-white mb-4 mt-10">{t("aboutPage.fightRecord.titlesHeading")}</h3>
-          <div className="overflow-x-auto rounded-xl border border-gray-700">
+          <div className="md:block hidden overflow-x-auto rounded-xl border border-gray-700">
             <table className="w-full text-white border-collapse text-base md:text-lg">
               <thead>
                 <tr className="bg-[#f59e0b] text-black">
@@ -175,6 +174,40 @@ export default function About() {
                 </tr>
               </tbody>
             </table>
+          </div>
+
+          {/* Versión mobile tipo stacked cards */}
+          <div className="md:hidden flex flex-col gap-4 mt-6">
+            {/* Título 1 */}
+            <div className="bg-[#1f2937] rounded-xl border border-gray-700 p-4 text-white shadow-md">
+              <div className="font-bold text-yellow-400 flex items-center gap-2 mb-2"><FaCrown /> {t("aboutPage.fightRecord.titles.wtMuay")}</div>
+              <p className="text-sm"><span className="font-medium">{t("aboutPage.fightRecord.table.org")}:</span> WKN</p>
+              <p className="text-sm"><span className="font-medium">{t("aboutPage.fightRecord.table.weight")}:</span> 58 kg</p>
+            </div>
+            {/* Título 2 */}
+            <div className="bg-[#1f2937] rounded-xl border border-gray-700 p-4 text-white shadow-md">
+              <div className="font-bold text-yellow-400 flex items-center gap-2 mb-2"><FaCrown /> {t("aboutPage.fightRecord.titles.wtK1")}</div>
+              <p className="text-sm"><span className="font-medium">{t("aboutPage.fightRecord.table.org")}:</span> WKN</p>
+              <p className="text-sm"><span className="font-medium">{t("aboutPage.fightRecord.table.weight")}:</span> 58 kg</p>
+            </div>
+            {/* Título 3 */}
+            <div className="bg-[#1f2937] rounded-xl border border-gray-700 p-4 text-white shadow-md">
+              <div className="font-bold text-blue-400 flex items-center gap-2 mb-2"><FaGlobeAmericas /> {t("aboutPage.fightRecord.titles.icMuay1")}</div>
+              <p className="text-sm"><span className="font-medium">{t("aboutPage.fightRecord.table.org")}:</span> WKN</p>
+              <p className="text-sm"><span className="font-medium">{t("aboutPage.fightRecord.table.weight")}:</span> 57 kg</p>
+            </div>
+            {/* Título 4 */}
+            <div className="bg-[#1f2937] rounded-xl border border-gray-700 p-4 text-white shadow-md">
+              <div className="font-bold text-blue-400 flex items-center gap-2 mb-2"><FaGlobeAmericas /> {t("aboutPage.fightRecord.titles.icMuay2")}</div>
+              <p className="text-sm"><span className="font-medium">{t("aboutPage.fightRecord.table.org")}:</span> WKC</p>
+              <p className="text-sm"><span className="font-medium">{t("aboutPage.fightRecord.table.weight")}:</span> 58 kg</p>
+            </div>
+            {/* Título 5 */}
+            <div className="bg-[#1f2937] rounded-xl border border-gray-700 p-4 text-white shadow-md">
+              <div className="font-bold text-green-400 flex items-center gap-2 mb-2"><GiSouthAmerica /> {t("aboutPage.fightRecord.titles.saMuay")}</div>
+              <p className="text-sm"><span className="font-medium">{t("aboutPage.fightRecord.table.org")}:</span> WKN</p>
+              <p className="text-sm"><span className="font-medium">{t("aboutPage.fightRecord.table.weight")}:</span> 59 kg</p>
+            </div>
           </div>
         </section>
 
