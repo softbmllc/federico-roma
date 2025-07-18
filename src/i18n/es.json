@@ -165,7 +165,8 @@
       "title": "Hoy, mi misión es compartir lo que aprendí",
       "p1": "Como coach, trabajo con atletas amateur y profesionales, y formo parte del equipo técnico de selecciones argentinas. Estuve presente en eventos de alto nivel como Glory Kickboxing, R.I.S.E. (Japón), WGP y torneos internacionales de Muay Thai organizados por la IFMA. Mi enfoque está siempre en alcanzar tanto los objetivos grupales como las metas individuales de cada competidor.",
       "p2": "Ofrezco clases personalizadas para todo tipo de personas, desde quienes buscan aprender el arte con profundidad, hasta quienes desean mejorar su condición física, perder peso o simplemente entrenar con propósito.",
-      "p3": "Soy coach ontológico, coach de boxeo y personal trainer. Eso me permite acompañar procesos de transformación física con un enfoque integral: técnico, físico y mental."
+      "p3": "Soy coach ontológico, coach de boxeo y personal trainer. Eso me permite acompañar procesos de transformación física con un enfoque integral: técnico, físico y mental.",
+      "p4": "También ofrezco seminarios, coaching deportivo y entrenamientos personalizados para equipos, gimnasios o grupos que busquen alto rendimiento."
     },
     "careerPath": {
       "title": "Mi recorrido profesional",
@@ -194,6 +195,6 @@
         "saMuay": "Campeón Sudamericano Muay Thai"
       }
     },
-    "ctaBookClass": "Reservá tu clase personalizada"
+    "ctaBookClass": "Entrená conmigo. Contactame."
   }
 }

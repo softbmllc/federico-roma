@@ -32,12 +32,22 @@ export default function About() {
           <h2 className="text-2xl font-bold text-[#f59e0b] mb-4">{t("aboutPage.earlySteps.title")}</h2>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.earlySteps.p1")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.earlySteps.p2")}</p>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6 mt-6">
+          {/* Desktop y tablet horizontal */}
+          <div className="hidden sm:flex flex-row justify-center gap-4 mt-6">
             <img
               src="/images/about/tenis-infancia.jpeg"
               alt="Federico Roma jugando al tenis en su infancia"
-              className="w-full max-w-sm rounded-xl shadow-md"
+              className="w-[48%] rounded-xl shadow-md"
             />
+            <img
+              src="/images/about/recuperacion-infancia.jpeg"
+              alt="Federico Roma entrenando tras fractura en su niñez"
+              className="w-[48%] rounded-xl shadow-md"
+            />
+          </div>
+
+          {/* Mobile: solo muestra la imagen de recuperación */}
+          <div className="flex sm:hidden justify-center items-center mt-6">
             <img
               src="/images/about/recuperacion-infancia.jpeg"
               alt="Federico Roma entrenando tras fractura en su niñez"
@@ -115,6 +125,7 @@ export default function About() {
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.shareMission.p1")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.shareMission.p2")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.shareMission.p3")}</p>
+          <p className="text-lg leading-relaxed mb-4">{t("aboutPage.shareMission.p4")}</p>
           <div className="mt-6 text-center">
             <a href="https://wa.me/16454442941" target="_blank" rel="noopener noreferrer" className="bg-[#f59e0b] text-black px-6 py-3 rounded-lg font-bold shadow-md hover:scale-105 transition">
               {t("aboutPage.ctaBookClass")}

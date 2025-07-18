@@ -35,6 +35,11 @@
       "p2": "My parents always emphasized the academic path. I was studying Computer Engineering, and they thought that was my destiny. I was always good with computers, I liked it. But the passion I felt while training was something else.",
       "p3": "Since I was a kid I’ve been a fan of martial arts movies. I watched them all: Van Damme, Steven Seagal, Bruce Lee… I used to binge-watch them on Sundays at noon."
     },
+    "christianBosch": {
+      "title": "Cristian Bosch and the dojo that shaped my journey",
+      "p1": "I still remember the old dojo at Club Argentina in Castelar. I think it was around 2005 or 2006 when I started training with Cristian Bosch. I wanted to improve and never missed a class. I saw him as a great role model.",
+      "p2": "Before every class I would start stretching at home, doing sit-ups. I arrived early. And once they allowed me, I would stay kicking the bags after training."
+    },
     "firstFight": {
       "title": "My first fight, my first fire",
       "p1": "My first fight was a mix of emotions: anxiety, nerves, adrenaline. I was warming up and Christian showed me my opponent. He took out a black belt from his bag. I looked at it and it said: '4th Dan Karate'. I was a green belt in kickboxing.",
@@ -65,9 +70,10 @@
       "title": "Today, my mission is to share what I’ve learned",
       "p1": "As a coach, I work with both amateur and professional athletes and have been part of the technical team for Argentine national selections. I’ve been present at high-level events like Glory Kickboxing, R.I.S.E. (Japan), WGP and international Muay Thai tournaments organized by IFMA. My focus is always on achieving both group objectives and the individual goals of each fighter.",
       "p2": "I offer personalized classes for all types of people, from those who want to deeply study the art, to those who want to improve their fitness, lose weight, or simply train with purpose.",
-      "p3": "I’m an ontological coach, boxing coach and personal trainer. This allows me to guide physical transformation processes with a holistic approach: technical, physical and mental."
+      "p3": "I’m an ontological coach, boxing coach and personal trainer. This allows me to guide physical transformation processes with a holistic approach: technical, physical and mental.",
+      "p4": "I also offer sports coaching and seminars, as well as training for teams, gyms or groups interested in high performance."
     },
-    "ctaBookClass": "Book your custom class",
+    "ctaBookClass": "Train with me. Contact now",
     "careerPath": {
       "title": "My professional journey",
       "p1": "I trained at the Escuela de Campeones Dojo Serpiente with Cristian 'Serpiente' Bosch, and I also trained in Thailand, the birthplace of Muay Thai. Throughout my career I represented Argentina in international events in Japan, France, Poland, Indonesia, Mexico, Peru, Paraguay, Uruguay and more.",
@@ -110,8 +116,7 @@
     "imageAltSeminar": "International seminar led by Federico Roma",
     "seoTitle": "Training with Federico Roma | Private, Group and Seminar Classes",
     "seoDescription": "Train with Federico Roma, world champion in Muay Thai and Kickboxing. Choose private lessons, small groups, or international seminars."
-  }
-,
+  },
   "gallery": {
     "title": "Media Gallery"
   },
@@ -151,8 +156,7 @@
       "whatsapp": "WhatsApp",
       "email": "Email"
     }
-  }
-,
+  },
   "home": {
     "title": "Federico Roma - The Little Big Man",
     "seoTitle": "Federico Roma | Muay Thai and Kickboxing World Champion",
