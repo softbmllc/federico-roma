@@ -137,7 +137,6 @@ export default function About() {
           <h2 className="text-2xl font-bold text-[#f59e0b] mb-4">{t("aboutPage.careerPath.title")}</h2>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.careerPath.p1")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.careerPath.p2")}</p>
-          <p className="text-lg leading-relaxed mb-4">{t("aboutPage.careerPath.p3")}</p>
 
           <h2 className="text-2xl font-bold text-[#f59e0b] mt-10 mb-4">{t("aboutPage.fightRecord.titlesHeading")}</h2>
           <ul className="text-lg leading-loose mb-6">

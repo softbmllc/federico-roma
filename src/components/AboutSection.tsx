@@ -26,7 +26,7 @@ export default function AboutSection() {
             {t("about.description")}
           </p>
           <a
-            href="/sobre-mi"
+            href="/about"
             className="inline-block mt-6 px-6 py-3 bg-orange-600 text-white font-semibold rounded hover:bg-orange-700 transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg"
           >
             {t("about.button")}
