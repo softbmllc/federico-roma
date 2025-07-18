@@ -86,19 +86,19 @@ export default function About() {
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.lossAndStrength.p1")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.lossAndStrength.p2")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.lossAndStrength.p3")}</p>
-          <p className="text-lg leading-relaxed mb-4">{t("aboutPage.lossAndStrength.p4")}</p>
           <img
             src="/images/about/amuletos.jpg"
             alt="Federico mostrando los amuletos de su nono y su papá"
             className="rounded-xl mt-6 mx-auto w-full max-w-md shadow-lg"
           />
-          
         </section>
 
         <section className="mb-16">
           <h2 className="text-2xl font-bold text-[#f59e0b] mb-4">{t("aboutPage.dojoToWorld.title")}</h2>
+          <p className="text-lg leading-relaxed mb-4">{t("aboutPage.dojoToWorld.p0")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.dojoToWorld.p1")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.dojoToWorld.p2")}</p>
+          <p className="text-lg leading-relaxed mb-4">{t("aboutPage.dojoToWorld.p3")}</p>
           <video
             controls
             className="mt-4 mb-6 w-full max-w-md mx-auto rounded-xl shadow-lg"
@@ -106,7 +106,6 @@ export default function About() {
             <source src="/videos/about/victoria-ko-4to-round.mp4" type="video/mp4" />
             Tu navegador no soporta el video.
           </video>
-          <p className="text-lg leading-relaxed mb-4">{t("aboutPage.dojoToWorld.p3")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.dojoToWorld.p4")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.dojoToWorld.p5")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.dojoToWorld.p6")}</p>
