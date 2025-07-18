@@ -1,25 +1,100 @@
 {
-    "hero": {
-      "subtitle": "WORLD CHAMPION\nBOXING & KICKBOXING COACH\nTRADITIONAL MUAY THAI",
-      "ctaBiography": "BIOGRAPHY",
-      "ctaBookClass": "BOOK CLASS",
-      "srTitle": "Federico Roma – Muay Thai and Kickboxing World Champion"
-    },
-    "nav": {
-      "home": "Home",
-      "about": "About Me",
-      "classes": "Classes",
-      "gallery": "Gallery",
-      "testimonials": "Testimonials",
-      "sponsors": "Sponsors",
-      "contact": "Contact"
-    },
+  "hero": {
+    "subtitle": "WORLD CHAMPION\nBOXING & KICKBOXING COACH\nTRADITIONAL MUAY THAI",
+    "ctaBiography": "BIOGRAPHY",
+    "ctaBookClass": "BOOK CLASS",
+    "srTitle": "Federico Roma – Muay Thai and Kickboxing World Champion"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "classes": "Classes",
+    "gallery": "Gallery",
+    "testimonials": "Testimonials",
+    "sponsors": "Sponsors",
+    "contact": "Contact"
+  },
   "about": {
     "title": "About Me",
     "description": "I’m Federico Roma, former world champion in Muay Thai and Kickboxing. With over 20 years of experience, I trained at the Escuela de Campeones Dojo Serpiente and in training camps across Thailand. I’ve competed in countries such as Uruguay, Peru, Mexico, France, Poland, Japan, Thailand, and Indonesia.\n\nAs a coach, I’ve worked with both amateur and professional fighters, representing Argentina in international events like Glory Kickboxing, RISE (Japan), and WGP. I’ve trained champions across multiple disciplines, and I also offer personalized classes, where I teach the art with the same passion — helping my students reach goals like weight loss, improved technique, and greater confidence.",
     "button": "Learn more about me",
     "videoTitle": "Featured Videos",
     "videoSubtitle": "Path to the world title and technical TV interview"
+  },
+  "aboutPage": {
+    "mainTitleLine1": "MY STORY",
+    "mainTitleLine2": "PASSION, FIGHT AND EVOLUTION",
+    "earlySteps": {
+      "title": "My early steps in sports",
+      "p1": "I was always very athletic. I was always doing something: running, jumping, playing. At 5 years old, I started playing tennis. I couldn’t even get the ball over the net and dragged my racket around, but I wanted to hit every ball. What started casually ended up lasting 10 years.",
+      "p2": "One day, while I was training, I stepped on a ball I didn’t see. I fell backwards and landed all my weight on one leg. I fractured my tibia. It was a serious fracture, and I spent six months in a cast. But the next day, I still went to train in a wheelchair, cast and all. The coaches were incredibly patient with me."
+    },
+    "infancyDiscipline": {
+      "title": "My childhood: discipline, movies and martial arts",
+      "p1": "At 13 I started Karate, and between 15 and 16 I did a bit of Aikido. At that time, I was very immersed in traditional martial arts. At 18 I started boxing, and within a few months I was hooked on kickboxing.",
+      "p2": "My parents always emphasized the academic path. I was studying Computer Engineering, and they thought that was my destiny. I was always good with computers, I liked it. But the passion I felt while training was something else.",
+      "p3": "Since I was a kid I’ve been a fan of martial arts movies. I watched them all: Van Damme, Steven Seagal, Bruce Lee… I used to binge-watch them on Sundays at noon."
+    },
+    "firstFight": {
+      "title": "My first fight, my first fire",
+      "p1": "My first fight was a mix of emotions: anxiety, nerves, adrenaline. I was warming up and Christian showed me my opponent. He took out a black belt from his bag. I looked at it and it said: '4th Dan Karate'. I was a green belt in kickboxing.",
+      "p2": "I thought: this guy is dangerous. He had tremendous kicks. If he landed one clean, who knows what would’ve happened. It was a tough fight. But I managed to win on points. When it ended, I said to myself: I want more of this.",
+      "p3": "I felt something amazing in the progress. Every day something improved: my punches, my kicks, my movement. My teammates also helped me, gave me tips. I was always good at listening and applying.",
+      "p4": "I had just a few amateur fights when Cristian proposed a match in Uruguay. It was going to be my first professional fight."
+    },
+    "lossAndStrength": {
+      "title": "The pain that pushed me to become stronger",
+      "p1": "One of the hardest moments in my life was when my father passed away. I had been competing for a few years, and he passed from pancreatic cancer. It was a huge blow. That’s when I had to choose: let myself fall, or transform that pain.",
+      "p2": "I gathered strength. My dad always taught me to move forward. Giving up was not an option.",
+      "p3": "Since then, I always travel with two amulets: one photo of him and one of my grandfather, my Nono. They’re always with me. They give me strength, they protect me.",
+      "p4": "For me, WKN was the ultimate goal. I followed the rankings online, looked at all the world and European champions. I dreamed of being there someday, even if it felt far away."
+    },
+    "dojoToWorld": {
+      "title": "From Dojo Serpiente to the world's biggest stages",
+      "p1": "After much effort, training and fights, I got the opportunity: a tough fight against Tomas Tadlanek, the European champion. It was for the WKN Intercontinental Muay Thai title.",
+      "p2": "I wasn’t the favorite. But I trained like never before. I focused, I prepared, I gave it my all.",
+      "p3": "I won by KO in the 4th round. It was a victory I will never forget.",
+      "p4": "Thanks to that victory, I got the opportunity to fight for the world title against Tomasz Makowski. He was already a well-known name: 9-time world champion and had beaten all the top fighters. For me, it was a huge chance to fulfill a dream — being in the WKN rankings.",
+      "p5": "The trip was long, with countless layovers. We left from Buenos Aires and finally arrived at the final destination in Poland after many hours of travel.",
+      "p6": "Tomaz was clearly the favorite. But I wanted that belt. I wanted to win and become a world champion. Cristian always believed in me. Together, we developed a perfect strategy.",
+      "p7": "Cristian told me: 'Throw four hard low kicks, then start letting loose.' I couldn’t take big risks at the start. I came out to pressure him and slowly wear him down. By the third round, Tomaz started to feel my power. I broke him down little by little.",
+      "p8": "In the fourth round, he went down… and couldn’t get up. I WAS WORLD CHAMPION! That title changed everything for me. It was something incredibly powerful to win. I had never felt anything like it in my life — one of the most intense emotions I’ve ever experienced.",
+      "p9": "That title changed everything for me. Winning it was incredibly powerful. I had never felt anything like it in my life — one of the most intense emotions I’ve ever experienced."
+    },
+    "shareMission": {
+      "title": "Today, my mission is to share what I’ve learned",
+      "p1": "As a coach, I work with both amateur and professional athletes and have been part of the technical team for Argentine national selections. I’ve been present at high-level events like Glory Kickboxing, R.I.S.E. (Japan), WGP and international Muay Thai tournaments organized by IFMA. My focus is always on achieving both group objectives and the individual goals of each fighter.",
+      "p2": "I offer personalized classes for all types of people, from those who want to deeply study the art, to those who want to improve their fitness, lose weight, or simply train with purpose.",
+      "p3": "I’m an ontological coach, boxing coach and personal trainer. This allows me to guide physical transformation processes with a holistic approach: technical, physical and mental."
+    },
+    "ctaBookClass": "Book your custom class",
+    "careerPath": {
+      "title": "My professional journey",
+      "p1": "I trained at the Escuela de Campeones Dojo Serpiente with Cristian 'Serpiente' Bosch, and I also trained in Thailand, the birthplace of Muay Thai. Throughout my career I represented Argentina in international events in Japan, France, Poland, Indonesia, Mexico, Peru, Paraguay, Uruguay and more.",
+      "p2": "I was one of the first Argentinians to compete in ONE Championship and RISE, making a mark in national sports. As a coach, I joined technical teams of national selections, worked with amateur and professional athletes, and participated in high-level events such as Glory, IFMA and WGP.",
+      "p3": "Today I offer personalized classes, sports coaching and seminars. I graduated as an ontological coach, boxing coach and personal trainer, which allows me to support physical transformation processes with a holistic approach: technical, physical and mental."
+    },
+    "fightRecord": {
+      "title": "My professional record",
+      "line1": "76 professional fights",
+      "line2": "68 wins (30 K.O. / T.K.O.)",
+      "line3": "7 losses – 1 draw",
+      "line4": "5 international titles",
+      "line5": "5th Dan Kickboxing – 12th Khan Muay Thai",
+      "titlesHeading": "Titles Earned",
+      "table": {
+        "title": "Title",
+        "org": "Organization",
+        "weight": "Weight (kg)"
+      },
+      "titles": {
+        "wtMuay": "Muay Thai World Champion",
+        "wtK1": "K-1 World Champion",
+        "icMuay1": "Intercontinental Muay Thai Champion",
+        "icMuay2": "Intercontinental Muay Thai Champion",
+        "saMuay": "South American Muay Thai Champion"
+      }
+    }
   },
   "classes": {
     "title": "Classes & Training",

@@ -113,5 +113,87 @@
       "title": "Seminarios y entrenamientos internacionales",
       "subtitle": "Sumate a mis workshops y llevá tu nivel al máximo"
     }
+  },
+  "aboutPage": {
+    "metaTitle": "Mi Camino | Federico Roma",
+    "metaDescription": "Descubrí la historia de Federico Roma, campeón mundial de Muay Thai y Kickboxing, desde sus primeros pasos hasta su legado como coach.",
+    "mainTitleLine1": "MI HISTORIA",
+    "mainTitleLine2": "PASIÓN LUCHA Y EVOLUCIÓN",
+    "earlySteps": {
+      "title": "Mis primeros pasos en el deporte",
+      "p1": "Desde chico fui muy deportista. Siempre estaba haciendo algo: correr, saltar, jugar. A los 5 años empecé con el tenis. No pasaba la red, arrastraba la raqueta, pero le quería pegar a todas las pelotitas. Lo que arrancó como algo casual terminó durando 10 años.",
+      "p2": "Una vez, mientras entrenaba, pisé una pelotita sin verla. Me fui para atrás y caí con todo el peso sobre la pierna. Me fracturé la tibia. Fue una fractura jodida, estuve seis meses con sello. Pero al día siguiente fui igual a entrenar en silla de ruedas, con sello y todo. Los profes me tenían mucha paciencia."
+    },
+    "infancyDiscipline": {
+      "title": "Mi infancia: disciplina, películas y artes marciales",
+      "p1": "A los 13 años arranqué Karate, y entre los 15 y 16 hice algo de Aikido. En ese momento estaba muy metido en las artes marciales tradicionales. A los 18 empecé con boxeo, y a los pocos meses ya estaba enganchado con el kickboxing.",
+      "p2": "Mis viejos me marcaban mucho el camino del estudio. Yo estaba cursando Ingeniería Informática, y pensaban que ese era mi destino. Siempre fui bueno con la compu, me gustaba. Pero la pasión que sentía entrenando era otra cosa.",
+      "p3": "Desde chico fui fanático de las películas de artes marciales. Me miraba todo: Van Damme, Steven Seagal, Bruce Lee… los domingos al mediodía me hacía maratones."
+    },
+    "christianBosch": {
+      "title": "Cristian Bosch y el dojo que marcó mi camino",
+      "p1": "Todavía me acuerdo del viejo dojo en el Club Argentina de Castelar. Creo que fue en 2005 o 2006 cuando empecé con Cristian Bosch. Quería mejorar, no faltaba nunca. Lo veía como un gran referente.",
+      "p2": "Antes de cada clase ya empezaba a elongar en casa, hacía abdominales. Llegaba temprano. Y cuando me habilitaron, me quedaba pateando las bolsas después de entrenar."
+    },
+    "firstFight": {
+      "title": "Mi primera pelea, mi primer fuego",
+      "p1": "Mi primera pelea fue una mezcla de emociones: ansiedad, nervios, adrenalina. Estaba entrando en calor y Christian me muestra a mi rival. Saca un cinturón negro del bolso. Lo miro y decía: “4to dan de Karate”. Yo era cinturón verde de kickboxing.",
+      "p2": "Pensé: este tipo es peligrosísimo. Tenía unas patadas tremendas. Si me agarraba una bien puesta, no sé qué pasaba. Fue una pelea durísima. Pero la llevé y gané por puntos. Cuando terminó, me dije: yo quiero más de esto.",
+      "p3": "Sentía algo increíble en el progreso. Todos los días algo nuevo me salía mejor. Las manos, las patadas, la movilidad. Mis compañeros también me ayudaban, me daban consejos. Siempre fui muy de escuchar y aplicar.",
+      "p4": "Venía con pocas peleas amateur cuando Cristian me propuso pelear en Uruguay. Iba a ser mi primera pelea profesional."
+    },
+    "lossAndStrength": {
+      "title": "El dolor que me empujó a ser más fuerte",
+      "p1": "Uno de los momentos más duros de mi vida fue cuando falleció mi papá. Llevaba unos años compitiendo, y se fue por un cáncer de páncreas. Fue un golpe enorme. Y ahí tuve que elegir: dejarme caer, o transformar ese dolor.",
+      "p2": "Me armé de valor. Mi viejo siempre me enseñó que había que salir adelante. Que aflojar no era una opción.",
+      "p3": "Desde entonces, viajo siempre con dos amuletos: una foto de él y otra con mi abuelo, el Nono. Siempre están conmigo. Me dan fuerza, me protegen.",
+      "p4": "Para mí, la WKN era lo máximo. Seguía todos los rankings online, miraba a los campeones mundiales y europeos. Soñaba con estar ahí algún día, aunque lo veía lejano."
+    },
+    "dojoToWorld": {
+      "title": "Del Dojo Serpiente a los escenarios más grandes del mundo",
+      "p1": "Después de mucho esfuerzo, entrenamiento y peleas, me llegó la oportunidad: una pelea durísima contra Tomas Tadlanek, campeón europeo. Era por el título intercontinental de Muay Thai de la WKN.",
+      "p2": "No era el favorito. Pero entrené como nunca. Me enfoqué, me preparé, me entregué al 100%.",
+      "p3": "Gané por KO en el 4to round. Fue una victoria que no me voy a olvidar más.",
+      "p4": "Gracias a esa victoria me llegó la posibilidad de pelear por el título mundial contra Tomasz Makowski. Él ya era un referente, conocidísimo, 9 veces campeón mundial, y había vencido a todos los mejores. Para mí fue una oportunidad enorme de cumplir un sueño: estar en el ranking de la WKN.",
+      "p5": "El viaje fue larguísimo, con un montón de escalas. Salimos desde Buenos Aires y recién llegamos a Polonia al destino final después de muchísimas horas.",
+      "p6": "Tomaz era el gran favorito, por diferencia. Pero yo quería ese cinturón, quería ganar, ser campeón mundial. Sabía que iba a ser una pelea durísima. Christian siempre me tuvo fe. Juntos planteamos un plan de pelea estratégico, y todo lo que planeamos salió perfecto.",
+      "p7": "Cristian me dijo: “Meté cuatro low kicks fuertes y después empezá a soltar”. No podía arriesgar mucho de entrada. Salí a avanzarlo, a desgastarlo de a poco. Y a partir del tercer round, Tomaz empezó a sentir mis golpes. Lo fui quebrando poco a poco.",
+      "p8": "En el cuarto round cayó… y no se pudo levantar.\n\n¡ERA CAMPEÓN MUNDIAL!",
+      "p9": "Ese título me generó muchísimas cosas. Fue algo muy fuerte ganarlo. Nunca en mi vida sentí algo así. De las emociones más intensas que viví."
+    },
+    "shareMission": {
+      "title": "Hoy, mi misión es compartir lo que aprendí",
+      "p1": "Como coach, trabajo con atletas amateur y profesionales, y formo parte del equipo técnico de selecciones argentinas. Estuve presente en eventos de alto nivel como Glory Kickboxing, R.I.S.E. (Japón), WGP y torneos internacionales de Muay Thai organizados por la IFMA. Mi enfoque está siempre en alcanzar tanto los objetivos grupales como las metas individuales de cada competidor.",
+      "p2": "Ofrezco clases personalizadas para todo tipo de personas, desde quienes buscan aprender el arte con profundidad, hasta quienes desean mejorar su condición física, perder peso o simplemente entrenar con propósito.",
+      "p3": "Soy coach ontológico, coach de boxeo y personal trainer. Eso me permite acompañar procesos de transformación física con un enfoque integral: técnico, físico y mental."
+    },
+    "careerPath": {
+      "title": "Mi recorrido profesional",
+      "p1": "Me formé en la Escuela de Campeones Dojo Serpiente junto a Cristian “Serpiente” Bosch, y también entrené en Tailandia, cuna del Muay Thai. A lo largo de mi carrera representé a Argentina en eventos internacionales en Japón, Francia, Polonia, Indonesia, México, Perú, Paraguay, Uruguay y más.",
+      "p2": "Fui uno de los primeros argentinos en competir en ONE Championship y RISE, dejando huella para el deporte nacional. Como coach, integré equipos técnicos de selecciones, trabajé con atletas amateurs y profesionales, y participé en eventos de alto nivel como Glory, IFMA y WGP.",
+      "p3": "Hoy ofrezco clases personalizadas, coaching deportivo y seminarios. Me gradué como coach ontológico, coach de boxeo y personal trainer, lo que me permite acompañar procesos de transformación física con un enfoque integral: técnico, físico y mental."
+    },
+    "fightRecord": {
+      "title": "Mi récord profesional",
+      "line1": "76 peleas profesionales",
+      "line2": "68 victorias (30 K.O. / T.K.O.)",
+      "line3": "7 derrotas – 1 empate",
+      "line4": "5 títulos internacionales",
+      "line5": "5° Dan Kickboxing – 12° Khan Muay Thai",
+      "titlesHeading": "Títulos obtenidos",
+      "table": {
+        "title": "Título",
+        "org": "Organización",
+        "weight": "Categoría"
+      },
+      "titles": {
+        "wtMuay": "Campeón Mundial Muay Thai",
+        "wtK1": "Campeón Mundial K-1",
+        "icMuay1": "Campeón Intercontinental Muay Thai",
+        "icMuay2": "Campeón Intercontinental Muay Thai",
+        "saMuay": "Campeón Sudamericano Muay Thai"
+      }
+    },
+    "ctaBookClass": "Reservá tu clase personalizada"
   }
 }

@@ -8,10 +8,9 @@
 html,
 body {
   scroll-behavior: smooth;
-  background-color: white;
-  color: black;
 }
 
+/* Mobile overflow fix */
 @media (max-width: 768px) {
   html,
   body {

@@ -3,6 +3,7 @@
 import { useTranslation } from "react-i18next";
 import Button from "./ui/Button";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function HeroSection() {
   useEffect(() => {
@@ -16,6 +17,7 @@ export default function HeroSection() {
     return () => window.removeEventListener('resize', setViewportHeight);
   }, []);
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   return (
     <section className="relative flex items-start justify-start bg-black text-white pt-[64px] sm:pt-[calc(64px+8vh)] md:pt-[8rem] overflow-hidden w-full" style={{ minHeight: 'calc(var(--vh, 1vh) * 100)' }}>
@@ -55,7 +57,7 @@ export default function HeroSection() {
 
         {/* Botones */}
         <div className="mt-[6vh] sm:mt-[6vh] moblg:mt-[18vh] flex flex-col md:flex-row gap-4 text-left md:justify-start mb-10 max-w-[900px] px-1.5 sm:px-6">
-          <Button variant="primary" labelKey="hero.ctaBiography" />
+          <Button variant="primary" labelKey="hero.ctaBiography" onClick={() => navigate("/about")} />
           <a
             href="https://wa.me/16454442941"
             target="_blank"

@@ -18,13 +18,13 @@ export default function App() {
   return (
     <div className="font-sans bg-black text-white">
       <Navbar />
-      <HeroSection />
       <main className="w-full min-h-[60vh]">
         <Routes>
           <Route
             path="/"
             element={
               <>
+                <HeroSection />
                 <AboutSection />
                 <ClassesSection />
                 <GallerySection />
