@@ -67,12 +67,39 @@ export default function About() {
           <h2 className="text-2xl font-bold text-[#f59e0b] mb-4">{t("aboutPage.christianBosch.title")}</h2>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.christianBosch.p1")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.christianBosch.p2")}</p>
+          {/* Desktop: mostrar dos fotos una al lado de la otra */}
+          <div className="hidden sm:flex flex-row justify-center gap-4 mt-6">
+            <img
+              src="/images/about/dojoserpiente.jpg"
+              alt="Federico Roma entrenando en el viejo gimnasio Dojo Serpiente junto a Christian Bosch"
+              className="w-[48%] rounded-xl shadow-md"
+            />
+            <img
+              src="/images/about/cristian-y-fede-dojo.jpg"
+              alt="Federico Roma junto a Christian Bosch en sus inicios en el dojo"
+              className="w-[48%] rounded-xl shadow-md"
+            />
+          </div>
+
+          {/* Mobile: solo la primera imagen */}
+          <div className="flex sm:hidden justify-center items-center mt-6">
+            <img
+              src="/images/about/dojoserpiente.jpg"
+              alt="Federico Roma entrenando en el viejo gimnasio Dojo Serpiente junto a Christian Bosch"
+              className="w-full max-w-sm rounded-xl shadow-md"
+            />
+          </div>
         </section>
 
         <section className="mb-16">
           <h2 className="text-2xl font-bold text-[#f59e0b] mb-4">{t("aboutPage.firstFight.title")}</h2>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.firstFight.p1")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.firstFight.p2")}</p>
+          <img
+            src="/images/about/primer-pelea.jpg"
+            alt="Federico Roma en su primera pelea amateur"
+            className="rounded-xl mt-6 mx-auto w-full max-w-md shadow-lg"
+          />
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.firstFight.p3")}</p>
           <p className="text-lg leading-relaxed mb-4">{t("aboutPage.firstFight.p4")}</p>
           {/* VIDEO: highlight pelea amateur */}
