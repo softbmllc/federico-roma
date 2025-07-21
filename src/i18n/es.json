@@ -38,7 +38,28 @@
     "imageAltGroup": "Clase grupal de kickboxing con Federico Roma",
     "imageAltSeminar": "Seminario internacional dictado por Federico Roma",
     "seoTitle": "Entrenamientos con Federico Roma | Clases personalizadas, grupales y seminarios",
-    "seoDescription": "Entrená con Federico Roma, campeón mundial de Muay Thai y Kickboxing. Elegí entre clases 1 a 1, grupos reducidos o seminarios internacionales."
+    "seoDescription": "Entrená con Federico Roma, campeón mundial de Muay Thai y Kickboxing. Elegí entre clases 1 a 1, grupos reducidos o seminarios internacionales.",
+    "metaTitle": "Clases con Federico Roma",
+    "metaDescription": "Entrená con Federico Roma: clases personalizadas, grupales y seminarios para todos los niveles. Técnica, táctica y preparación física con un campeón mundial.",
+    "heading": "Clases y entrenamientos",
+    "subheading": "Adaptadas a tus objetivos, nivel y estilo de vida",
+    "custom": {
+      "title": "Clases personalizadas",
+      "description": "Diseñadas 100% para vos. Creamos planes de entrenamiento a medida según tu nivel, tus objetivos y tu disponibilidad. Las rutinas están periodizadas por días, semanas y meses para garantizar mejoras reales en fuerza, cardio y técnica.",
+      "ctaText": "Escribime para comenzar tu entrenamiento personalizado."
+    },
+    "group": {
+      "title": "Clases grupales",
+      "description": "Entrenamientos en grupo para compartir energía, mejorar técnica y motivarse en equipo. ¡Incluyen una clase de prueba gratuita! Ideal para quienes buscan constancia y ambiente de comunidad.",
+      "ctaText": "Consultame por tu clase de prueba gratuita."
+    },
+    "seminars": {
+      "title": "Seminarios y cursos",
+      "description": "Clínicas especializadas en boxeo, kickboxing y muay thai para competidores amateur y profesionales. También ofrecemos cursos para instructores, donde se enseña a enseñar: desde grupos iniciales hasta atletas de nivel mundial, con foco en la periodización física y táctica.",
+      "ctaText": "Pedime info sobre próximos seminarios o cursos."
+    },
+    "cta": "Entrená conmigo",
+    "ctaText": "¿Listo para dar el siguiente paso? Escribime y arrancamos juntos."
   },
   "gallery": {
     "title": "Galería Multimedia"

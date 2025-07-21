@@ -115,7 +115,28 @@
     "imageAltGroup": "Group kickboxing class with Federico Roma",
     "imageAltSeminar": "International seminar led by Federico Roma",
     "seoTitle": "Training with Federico Roma | Private, Group and Seminar Classes",
-    "seoDescription": "Train with Federico Roma, world champion in Muay Thai and Kickboxing. Choose private lessons, small groups, or international seminars."
+    "seoDescription": "Train with Federico Roma, world champion in Muay Thai and Kickboxing. Choose private lessons, small groups, or international seminars.",
+    "metaTitle": "Training with Federico Roma",
+    "metaDescription": "Train with Federico Roma: personalized, group and instructor-focused seminars. World-class coaching in Muay Thai, Kickboxing and physical conditioning.",
+    "heading": "Classes & Training",
+    "subheading": "Tailored to your goals, level and lifestyle",
+    "custom": {
+      "title": "Personalized Classes",
+      "description": "Designed 100% for you. We build customized training plans based on your level, goals and availability. Each routine is periodized by days, weeks and months to ensure real improvements in strength, cardio and technique.",
+      "ctaText": "Message me to start your personalized training."
+    },
+    "group": {
+      "title": "Group Classes",
+      "description": "Train with others, stay motivated, and grow together. Includes a free trial class! Ideal for those looking for consistency and community energy.",
+      "ctaText": "Ask me about your free trial class."
+    },
+    "seminars": {
+      "title": "Seminars & Instructor Courses",
+      "description": "Clinics in boxing, kickboxing and Muay Thai for both amateur and professional fighters. We also offer instructor programs where we teach how to teach — from beginner groups to advanced coaching for international athletes. Focused on physical and tactical periodization.",
+      "ctaText": "Contact me for upcoming seminars or instructor courses."
+    },
+    "cta": "Train with me",
+    "ctaText": "Ready to take the next step? Message me and let's start together."
   },
   "gallery": {
     "title": "Media Gallery"
