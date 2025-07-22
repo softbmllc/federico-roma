@@ -141,23 +141,51 @@
   "gallery": {
     "title": "Media Gallery"
   },
-  "testimonials": {
-    "title": "Testimonials",
-    "subtitle": "What students and colleagues say",
-    "list": [
-      {
-        "quote": "Training with Fede changed the way I see kickboxing.",
-        "author": "Martín R., Buenos Aires"
-      },
-      {
-        "quote": "His international experience is impressive. A true master.",
-        "author": "Lucía P., Córdoba"
-      },
-      {
-        "quote": "Classes with Federico are intense, technical, and very motivating.",
-        "author": "Diego T., Rosario"
-      }
-    ]
+  "testimonial": {
+    "claudio": {
+      "title": "Amateur World Champion",
+      "text": "I want to thank Fede Roma for his support on my path toward athletic goals. His guidance has helped me achieve personal milestones and improve my physical condition. Thanks for the constant motivation and support. I'm happy to keep working toward more goals. The change in my body weight has been remarkable, and I feel stronger. Thank you, Fede, for believing in me."
+    },
+    "franco": {
+      "title": "World Champion",
+      "text": "Testimony pending."
+    },
+    "florencia": {
+      "title": "Professional Kickboxing Champion",
+      "text": "Testimony pending."
+    },
+    "elizondo": {
+      "title": "Subtítulo pending",
+      "text": "Testimony pending."
+    },
+    "carolina": {
+      "title": "Subtítulo pending",
+      "text": "Testimony pending."
+    },
+    "irioni": {
+      "title": "Professional Fighter · Argentine Champion",
+      "text": "Fede Roma, my great coach — or 'el Shuper', as I call him. He was a turning point in both my athletic and personal life. Thanks to him, I am who I am today. I was able to fulfill many dreams because he was my coach, including one of the biggest: working at Dojo Serpiente, one of the most important in the world. His humility, patience, and above all, his love for teaching made me believe that I can achieve anything I set my mind to."
+    },
+    "giraudo": {
+      "title": "Subtitle pending",
+      "text": "Testimonial pending"
+    },
+    "nofri": {
+      "title": "Kickboxing instructor",
+      "text": "Testimonial pending"
+    },
+    "bordi": {
+      "title": "Subtitle pending",
+      "text": "Testimonial pending"
+    },
+    "gustavo": {
+      "title": "Subtitle pending",
+      "text": "Testimonial pending"
+    },
+    "gastongiraudo": {
+      "title": "Subtitle pending",
+      "text": "Testimony pending"
+    }
   },
   "sponsors": {
     "title": "Sponsors",
@@ -209,5 +237,17 @@
       "title": "Seminars and international training",
       "subtitle": "Join my workshops around the world and elevate your performance"
     }
+  },
+  "testimonialsPage": {
+    "metaTitle": "Testimonials | Federico Roma",
+    "metaDescription": "Real testimonials from students, competitors and instructors who trained with Federico Roma. Results, transformation and trust.",
+    "title": "Real Testimonials",
+    "subtitle": {
+      "line1": "Students, competitors and instructors share their experience training with me.",
+      "line2": "Transformation, achievements, trust and growth."
+    },
+    "ctaHeadingLine1": "Want to train with me?",
+    "ctaHeadingLine2": "Message me on WhatsApp",
+    "ctaButton": "Send message"
   }
 }

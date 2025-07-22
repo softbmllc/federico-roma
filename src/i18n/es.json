@@ -66,7 +66,10 @@
   },
   "testimonials": {
     "title": "Testimonios",
-    "subtitle": "Lo que dicen alumnos y colegas",
+    "subtitleLine1": "Estudiantes, competidores e instructores comparten su experiencia entrenando conmigo.",
+    "subtitleLine2": "Transformación, crecimiento, confianza y evolución.",
+    "ctaLine1": "¿Querés entrenar conmigo?",
+    "ctaLine2": "Escribime por WhatsApp",
     "list": [
       {
         "quote": "Entrenar con Fede cambió mi forma de ver el kickboxing.",
@@ -216,5 +219,65 @@
       }
     },
     "ctaBookClass": "Entrená conmigo. Contactame."
+  },
+
+  "testimonialsPage": {
+    "metaTitle": "Testimonios | Federico Roma",
+    "metaDescription": "Testimonios reales de alumnos, competidores e instructores que entrenaron con Federico Roma. Resultados, transformación y confianza.",
+    "title": "Testimonios Reales",
+    "subtitle": {
+      "line1": "Alumnos, competidores e instructores comparten su experiencia entrenando conmigo.",
+      "line2": "Transformación, logros, confianza y superación."
+    },
+    "ctaHeadingLine1": "¿Querés entrenar conmigo?",
+    "ctaHeadingLine2": "Escribime por WhatsApp",
+    "ctaButton": "Enviar mensaje"
+  },
+
+  "testimonial": {
+    "claudio": {
+      "title": "Campeón Mundial Amateur",
+      "text": "Quiero agradecer a Fede Roma por su apoyo en mi camino hacia los objetivos deportivos. Su guía me ha ayudado a alcanzar metas personales y mejorar mi condición física. Gracias por la motivación y el apoyo constante. Estoy feliz de seguir trabajando hacia más objetivos. El cambio en mi peso corporal ha sido notable y me siento más fuerte. Gracias, Fede, por creer en mí."
+    },
+    "franco": {
+      "title": "Campeón Mundial",
+      "text": "Testimonio pendiente."
+    },
+    "florencia": {
+      "title": "Campeona Profesional de Kickboxing",
+      "text": "Testimonio pendiente."
+    },
+    "elizondo": {
+      "title": "Subtítulo pendiente",
+      "text": "Testimonio pendiente"
+    },
+    "munoz": {
+      "title": "Subtítulo pendiente",
+      "text": "Testimonio pendiente"
+    },
+    "giraudo": {
+      "title": "Peleador Profesional de k1",
+      "text": "Testimonio pendiente"
+    },
+    "nofri": {
+      "title": "Profesor de kickboxing",
+      "text": "Testimonio pendiente"
+    },
+    "bordi": {
+      "title": "Subtítulo pendiente",
+      "text": "Testimonio pendiente"
+    },
+    "irioni": {
+      "title": "Peleador Profesional · Campeón Argentino",
+      "text": "Fede Roma, mi gran profe o el shuper como le digo yo. Es la persona quien me marcó un antes y un después tanto en el deporte como en mi vida, gracias a él hoy soy quien soy.\nLogré cumplir muchos sueños por tenerlo como profe, y logré uno muy grande que es trabajar en el Dojo Serpiente, uno de los más importantes del mundo.\nGracias a su humildad, paciencia y sobre todo amor al dar clases me hizo creer que puedo lograr todo lo que me proponga en la vida."
+    },
+    "gustavo": {
+      "title": "Subtítulo pendiente",
+      "text": "Testimonio pendiente"
+    },
+    "gastongiraudo": {
+      "title": "Subtítulo pendiente",
+      "text": "Testimonio pendiente"
+    }
   }
 }
