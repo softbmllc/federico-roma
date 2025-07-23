@@ -17,7 +17,7 @@ const TestimonialCard: React.FC<Props> = ({ testimonial }) => {
       <div className="flex items-center justify-between">
         <div>
           <h3 className="text-lg font-semibold text-[#f97316]">{name}</h3>
-          <p className="text-sm text-[#cbd5e1]">{t(title)}</p>
+          <p className="text-sm text-[#cbd5e1]">{t(title || "")}</p>
         </div>
         {instagram && (
           <a
@@ -31,7 +31,7 @@ const TestimonialCard: React.FC<Props> = ({ testimonial }) => {
           </a>
         )}
       </div>
-      <p className="text-white">{t(text)}</p>
+      <p className="text-white">{t(text || "")}</p>
       {photos.length > 0 && (
         <div className="grid grid-cols-3 gap-2 mt-2 mb-2">
           {photos.map((src, idx) => (

@@ -179,8 +179,8 @@
       "text": "Testimonial pending"
     },
     "gustavo": {
-      "title": "Subtitle pending",
-      "text": "Testimonial pending"
+      "title": "Kickboxing Instructor",
+      "text": "Fede Roma was one of the most important people who guided me on this beautiful path of combat sports. He believed in me and my teammates when we were just starting out. I'm from Salto, a small town in the province of Buenos Aires, where opportunities aren’t always the same. But he supported us and shared his knowledge so we could train and be part of his team. Today, I’m a kickboxing instructor, graduated from one of the top martial arts academies — Dojo Serpiente. A dream come true. That’s why, to honor everything he’s done and continues to do for us, our school is named after him: 'Esc. Federico Roma'. Today, it has over 60 students, many of whom are already competing at a very good level. Thank you, Fede! We keep progressing thanks to his guidance — even from a distance, he’s always communicating and offering advice for every situation and training. A great person with strong values and a true role model!"
     },
     "gastongiraudo": {
       "title": "Subtitle pending",
@@ -192,18 +192,19 @@
     "description": "Thanks to the brands and institutions that support my career and help me grow as a professional athlete."
   },
   "contact": {
-    "title": "Contact",
-    "description": "Want to train with me, book a seminar or just reach out? Use the form or contact me via social media.",
+    "title": "Want to contact me for something professional?",
+    "subtitle": "I’m open to professional opportunities such as seminars, collaborations, technical clinics or special events. Fill out the form and I’ll get in touch with you personally.",
     "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "send": "Send"
+      "name": "Your name",
+      "phone": "Phone (optional)",
+      "email": "Your email",
+      "message": "Your message",
+      "submit": "Send message"
     },
-    "social": {
-      "instagram": "Instagram",
-      "whatsapp": "WhatsApp",
-      "email": "Email"
+    "success": "Thank you! Your message has been sent and I’ll get back to you soon.",
+    "error": "There was an error sending your message. Please try again.",
+    "validation": {
+      "required": "This field is required."
     }
   },
   "home": {

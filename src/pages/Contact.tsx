@@ -1,21 +1,137 @@
 // src/pages/Contact.tsx
 
-import ContactSection from "../components/ContactSection";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet-async";
+import { useState, useEffect } from "react";
 
 const Contact = () => {
   const { t } = useTranslation();
+  const [formData, setFormData] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    message: ""
+  });
+  const [errors, setErrors] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
+
+  const [submitted, setSubmitted] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const query = new URLSearchParams(window.location.search);
+      if (query.get("success") === "true") {
+        setSubmitted(true);
+      }
+    }
+  }, []);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+    setErrors({ ...errors, [name]: "" });
+  };
+
+  const validateForm = () => {
+    let newErrors: any = {};
+    if (!formData.name) newErrors.name = t("contact.validation.required");
+    if (!formData.email) newErrors.email = t("contact.validation.required");
+    if (!formData.message) newErrors.message = t("contact.validation.required");
+    setErrors(newErrors);
+    return Object.keys(newErrors).length === 0;
+  };
+
   return (
-    <>
+    <div className="flex flex-col min-h-screen bg-black text-white">
       <Helmet>
         <title>{t("nav.contact")} | Federico Roma</title>
         <meta name="description" content={t("contact.description")} />
       </Helmet>
-      <main>
-        <ContactSection />
+      <main className="flex-grow px-4 pt-[120px] pb-12 max-w-3xl mx-auto">
+        <h1 className="whitespace-pre-line text-3xl font-bold mb-4">
+          {t("contact.title")}
+        </h1>
+        <p className="whitespace-pre-line mb-6 text-lg text-gray-300">
+          {t("contact.subtitle")}
+        </p>
+
+        {submitted && (
+          <div className="bg-green-600 text-white rounded px-4 py-3 mb-6 animate-fade-in">
+            {t("contact.success")}
+          </div>
+        )}
+
+        <form
+          action="https://formspree.io/f/xyzpejqd"
+          method="POST"
+          className="space-y-4"
+          onSubmit={(e) => {
+            if (!validateForm()) {
+              e.preventDefault();
+            }
+          }}
+        >
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_template" value="box" />
+
+          <div>
+            <input
+              type="text"
+              name="name"
+              placeholder={t("contact.form.name") || ""}
+              value={formData.name}
+              onChange={handleChange}
+              className="w-full p-3 rounded bg-gray-800 text-white border border-gray-600 transition-all duration-200 focus:ring-2 focus:ring-orange-500"
+            />
+            {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
+          </div>
+
+          <input
+            type="text"
+            name="phone"
+            placeholder={t("contact.form.phone") || ""}
+            value={formData.phone}
+            onChange={handleChange}
+            className="w-full p-3 rounded bg-gray-800 text-white border border-gray-600 transition-all duration-200 focus:ring-2 focus:ring-orange-500"
+          />
+
+          <div>
+            <input
+              type="email"
+              name="email"
+              placeholder={t("contact.form.email") || ""}
+              value={formData.email}
+              onChange={handleChange}
+              className="w-full p-3 rounded bg-gray-800 text-white border border-gray-600 transition-all duration-200 focus:ring-2 focus:ring-orange-500"
+            />
+            {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
+          </div>
+
+          <div>
+            <textarea
+              name="message"
+              placeholder={t("contact.form.message") || ""}
+              value={formData.message}
+              onChange={handleChange}
+              rows={6}
+              className="w-full p-3 rounded bg-gray-800 text-white border border-gray-600 transition-all duration-200 focus:ring-2 focus:ring-orange-500"
+            />
+            {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
+          </div>
+
+          <input type="hidden" name="_next" value="https://federico-roma.vercel.app/contact?success=true" />
+          <button
+            type="submit"
+            className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded transition-colors duration-200"
+          >
+            {t("contact.form.submit")}
+          </button>
+        </form>
       </main>
-    </>
+    </div>
   );
 };
 

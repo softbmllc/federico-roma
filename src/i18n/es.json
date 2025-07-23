@@ -90,18 +90,19 @@
     "description": "Federico está orgullosamente respaldado por estas marcas que comparten su visión de excelencia, disciplina y alto rendimiento."
   },
   "contact": {
-    "title": "Contacto",
-    "description": "¿Querés entrenar conmigo, reservar un seminario o simplemente escribir? Usá el formulario o contactame por redes.",
+    "title": "¿Querés contratarme para un evento,\nseminario o proyecto profesional?",
+    "subtitle": "Estoy abierto a propuestas profesionales como seminarios, colaboraciones, clínicas técnicas o eventos especiales. Completá el formulario y me pondré en contacto.",
     "form": {
-      "name": "Nombre",
-      "email": "Email",
-      "message": "Mensaje",
-      "send": "Enviar"
+      "name": "Tu nombre",
+      "phone": "Teléfono (opcional)",
+      "email": "Tu email",
+      "message": "Tu mensaje",
+      "submit": "Enviar mensaje"
     },
-    "social": {
-      "instagram": "Instagram",
-      "whatsapp": "WhatsApp",
-      "email": "Correo"
+    "success": "¡Gracias! Tu mensaje fue enviado y responderé lo antes posible.",
+    "error": "Hubo un error al enviar tu mensaje. Por favor, intentá de nuevo.",
+    "validation": {
+      "required": "Este campo es obligatorio."
     }
   },
   "home": {
@@ -272,8 +273,8 @@
       "text": "Fede Roma, mi gran profe o el shuper como le digo yo. Es la persona quien me marcó un antes y un después tanto en el deporte como en mi vida, gracias a él hoy soy quien soy.\nLogré cumplir muchos sueños por tenerlo como profe, y logré uno muy grande que es trabajar en el Dojo Serpiente, uno de los más importantes del mundo.\nGracias a su humildad, paciencia y sobre todo amor al dar clases me hizo creer que puedo lograr todo lo que me proponga en la vida."
     },
     "gustavo": {
-      "title": "Subtítulo pendiente",
-      "text": "Testimonio pendiente"
+      "title": "Profesor de Kickboxing",
+      "text": "La verdad que Fede Roma fue una de las personas más importantes que me guió en este hermoso camino del deporte de contacto.\nEs esa persona que confió en mí y en mis compañeros cuando no éramos nada.\nSoy de Salto, en el interior de la provincia de Buenos Aires, donde por ahí las oportunidades no son las mismas, y sin embargo él nos brindó todo su apoyo y conocimiento para que podamos capacitarnos y ser parte de su equipo.\nHoy en día soy profesor de kickboxing, graduado en la mejor academia de artes marciales: Dojo Serpiente. Un sueño hecho realidad.\nPor eso, en honor a todo lo que hizo y sigue haciendo por nosotros, es que nuestra escuela lleva su nombre: 'Esc. Federico Roma'. Hoy cuenta con más de 60 alumnos, de los cuales varios ya están compitiendo a un nivel muy bueno.\n¡Gracias! Seguimos progresando junto a él. A pesar de la distancia, su comunicación es diaria, dando indicaciones para cada situación o entrenamiento.\nUna gran persona con muchos valores y un ejemplo para todos."
     },
     "gastongiraudo": {
       "title": "Subtítulo pendiente",

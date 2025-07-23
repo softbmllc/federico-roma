@@ -52,7 +52,11 @@ export const testimonials: Record<"es" | "en", Testimonial[]> = {
       name: "Gustavo Muñoz",
       title: "testimonial.gustavo.title",
       text: "testimonial.gustavo.text",
-      photos: [],
+      photos: [
+        "/images/testimonios/munoz1.jpg",
+        "/images/testimonios/munoz2.jpg",
+        "/images/testimonios/munoz3.jpg",
+      ],
       instagram: "https://www.instagram.com/gusty_munoz_/",
     },
     {
@@ -142,7 +146,11 @@ export const testimonials: Record<"es" | "en", Testimonial[]> = {
       name: "Gustavo Muñoz",
       title: "testimonial.gustavo.title",
       text: "testimonial.gustavo.text",
-      photos: [],
+      photos: [
+        "/images/testimonios/munoz1.jpg",
+        "/images/testimonios/munoz2.jpg",
+        "/images/testimonios/munoz3.jpg",
+      ],
       instagram: "https://www.instagram.com/gusty_munoz_/",
     },
     {

@@ -28,6 +28,7 @@ export default function App() {
                 <AboutSection />
                 <ClassesSection />
                 <GallerySection />
+                <Contact />
               </>
             }
           />
