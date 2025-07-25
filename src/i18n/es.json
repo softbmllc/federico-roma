@@ -102,7 +102,7 @@
     "subtitle": "Estoy abierto a propuestas profesionales como seminarios, colaboraciones, clínicas técnicas o eventos especiales. Completá el formulario y me pondré en contacto.",
     "form": {
       "name": "Tu nombre",
-      "phone": "Teléfono (opcional)",
+      "phone": "Teléfono",
       "email": "Tu email",
       "message": "Tu mensaje",
       "submit": "Enviar mensaje"
@@ -165,12 +165,12 @@
     },
     "christianBosch": {
       "title": "Cristian Bosch y el dojo que marcó mi camino",
-      "p1": "Todavía me acuerdo del viejo dojo en el Club Argentina de Castelar. Creo que fue en 2005 o 2006 cuando empecé con Cristian Bosch. Quería mejorar, no faltaba nunca. Lo veía como un gran referente.",
-      "p2": "Antes de cada clase ya empezaba a elongar en casa, hacía abdominales. Llegaba temprano. Y cuando me habilitaron, me quedaba pateando las bolsas después de entrenar."
+      "p1": "Todavía me acuerdo del viejo dojo en el Club Argentina de Castelar. Fué en 2003 cuando empecé a entrenar con Cristian Bosch. Quería mejorar, no faltaba nunca. Lo veía como un gran referente.",
+      "p2": "Antes de cada clase ya empezaba a elongar en casa, hacía abdominales. Llegaba temprano. Y cuando me dieron permiso, me quedaba entrenando solo, pateando las bolsas después de clase."
     },
     "firstFight": {
       "title": "Mi primera pelea, mi primer fuego",
-      "p1": "Mi primera pelea fue una mezcla de emociones: ansiedad, nervios, adrenalina. Estaba entrando en calor y Christian me muestra a mi rival. Saca un cinturón negro del bolso. Lo miro y decía: “4to dan de Karate”. Yo era cinturón verde de kickboxing.",
+      "p1": "Mi primera pelea fue una mezcla de emociones: ansiedad, nervios, adrenalina. Estaba entrando en calor y Cristian me muestra a mi rival. Saca un cinturón negro del bolso. Lo miro y decía: “4to dan de Karate”. Yo era cinturón verde de kickboxing.",
       "p2": "Pensé: este tipo es peligrosísimo. Tenía unas patadas tremendas. Si me agarraba una bien puesta, no sé qué pasaba. Fue una pelea durísima. Pero la llevé y gané por puntos. Cuando terminó, me dije: yo quiero más de esto.",
       "p3": "Sentía algo increíble en el progreso. Todos los días algo nuevo me salía mejor. Las manos, las patadas, la movilidad. Mis compañeros también me ayudaban, me daban consejos. Siempre fui muy de escuchar y aplicar.",
       "p4": "Venía con pocas peleas amateur cuando Cristian me propuso pelear en Uruguay. Iba a ser mi primera pelea profesional."
@@ -189,7 +189,7 @@
       "p3": "Gané por KO en el 4to round. Fue una victoria que no me voy a olvidar más.",
       "p4": "Gracias a esa victoria me llegó la posibilidad de pelear por el título mundial contra Tomasz Makowski. Él ya era un referente, conocidísimo, 9 veces campeón mundial, y había vencido a todos los mejores. Para mí fue una oportunidad enorme de cumplir un sueño: estar en el ranking de la WKN.",
       "p5": "El viaje fue larguísimo, con un montón de escalas. Salimos desde Buenos Aires y recién llegamos a Polonia al destino final después de muchísimas horas.",
-      "p6": "Tomaz era el gran favorito, por diferencia. Pero yo quería ese cinturón, quería ganar, ser campeón mundial. Sabía que iba a ser una pelea durísima. Christian siempre me tuvo fe. Juntos planteamos un plan de pelea estratégico, y todo lo que planeamos salió perfecto.",
+      "p6": "Tomaz era el gran favorito, por diferencia. Pero yo quería ese cinturón, quería ganar, ser campeón mundial. Sabía que iba a ser una pelea durísima. Cristian siempre me tuvo fe. Juntos planteamos un plan de pelea estratégico, y todo lo que planeamos salió perfecto.",
       "p7": "Cristian me dijo: “Meté cuatro low kicks fuertes y después empezá a soltar”. No podía arriesgar mucho de entrada. Salí a avanzarlo, a desgastarlo de a poco. Y a partir del tercer round, Tomaz empezó a sentir mis golpes. Lo fui quebrando poco a poco.",
       "p8": "En el cuarto round cayó… y no se pudo levantar.\n\n¡ERA CAMPEÓN MUNDIAL!",
       "p9": "Ese título me generó muchísimas cosas. Fue algo muy fuerte ganarlo. Nunca en mi vida sentí algo así. De las emociones más intensas que viví."

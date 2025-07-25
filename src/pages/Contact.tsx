@@ -15,6 +15,7 @@ const Contact = () => {
   const [errors, setErrors] = useState({
     name: "",
     email: "",
+    phone: "",
     message: ""
   });
 
@@ -39,6 +40,7 @@ const Contact = () => {
     let newErrors: any = {};
     if (!formData.name) newErrors.name = t("contact.validation.required");
     if (!formData.email) newErrors.email = t("contact.validation.required");
+    if (!formData.phone) newErrors.phone = t("contact.validation.required");
     if (!formData.message) newErrors.message = t("contact.validation.required");
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
@@ -97,6 +99,7 @@ const Contact = () => {
             onChange={handleChange}
             className="w-full p-3 rounded bg-gray-800 text-white border border-gray-600 transition-all duration-200 focus:ring-2 focus:ring-orange-500"
           />
+          {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
 
           <div>
             <input
