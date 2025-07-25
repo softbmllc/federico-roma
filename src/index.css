@@ -8,6 +8,8 @@
 html,
 body {
   scroll-behavior: smooth;
+  background-color: #000;
+  color: #fff;
 }
 
 /* Mobile overflow fix */

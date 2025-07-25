@@ -76,7 +76,11 @@ export const testimonials: Record<"es" | "en", Testimonial[]> = {
       name: "Fernando Elizondo",
       title: "testimonial.elizondo.title",
       text: "testimonial.elizondo.text",
-      photos: [],
+      photos: [
+        "/images/testimonios/elizondo1.jpg",
+        "/images/testimonios/elizondo2.jpg",
+        "/images/testimonios/elizondo3.jpg",
+      ],
       instagram: "https://www.instagram.com/fernandoelizondo_ch/",
     },
     {
@@ -170,7 +174,11 @@ export const testimonials: Record<"es" | "en", Testimonial[]> = {
       name: "Fernando Elizondo",
       title: "testimonial.elizondo.title",
       text: "testimonial.elizondo.text",
-      photos: [],
+      photos: [
+        "/images/testimonios/elizondo1.jpg",
+        "/images/testimonios/elizondo2.jpg",
+        "/images/testimonios/elizondo3.jpg",
+      ],
       instagram: "https://www.instagram.com/fernandoelizondo_ch/",
     },
     {

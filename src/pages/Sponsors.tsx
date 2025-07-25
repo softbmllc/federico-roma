@@ -1,17 +1,69 @@
 // src/pages/Sponsors.tsx
 
-import SponsorsSection from "../components/SponsorsSection";
 import { Helmet } from "react-helmet-async";
 import { useTranslation } from "react-i18next";
 
 export default function Sponsors() {
   const { t } = useTranslation();
+
   return (
     <>
       <Helmet>
         <title>{t("nav.sponsors")} | Federico Roma</title>
       </Helmet>
-      <SponsorsSection />
+
+      <div className="min-h-screen flex flex-col">
+        <section className="bg-gray-50 pt-[120px] sm:pt-24 pb-24 px-4 flex-grow">
+          <div className="max-w-6xl mx-auto text-center">
+            <h2 className="text-4xl font-bold text-black">{t("sponsors.title")}</h2>
+            <p className="text-gray-600 mt-2">{t("sponsors.subtitle")}</p>
+
+            <div className="mt-12 flex flex-col sm:flex-row gap-y-4 sm:gap-6 items-center sm:items-start justify-center">
+              {/* Logo */}
+              <div className="flex justify-center md:justify-center items-center md:items-start">
+                <img
+                  src="/images/huracan-logo-main.png"
+                  alt="Huracan Premium logo"
+                  className="w-[100px] sm:w-[150px] max-h-[100px] sm:max-h-[150px] drop-shadow-sm object-contain"
+                />
+              </div>
+
+              {/* Info */}
+              <div className="text-center md:text-left mt-6 md:mt-0">
+                <h3 className="text-2xl md:text-3xl font-semibold uppercase tracking-wide text-black">
+                  HURACAN Premium ®
+                </h3>
+                <p className="mt-2 md:mt-3 text-gray-700 text-sm md:text-base">
+                  {t("sponsors.line1")} <br />
+                  {t("sponsors.line2")}
+                </p>
+                <div className="mt-4 flex flex-col sm:flex-row w-full sm:w-auto items-center gap-3">
+                  <a
+                    href="https://www.instagram.com/huracanpremium"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition w-full sm:w-auto text-sm font-medium"
+                  >
+                    Instagram
+                  </a>
+                  <a
+                    href="https://wa.me/message/KKWAFBSLX5LKN1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition w-full sm:w-auto text-sm font-medium"
+                  >
+                    WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <p className="mt-12 text-gray-500 italic text-sm">
+              {t("sponsors.footerNote")}
+            </p>
+          </div>
+        </section>
+      </div>
     </>
   );
 }

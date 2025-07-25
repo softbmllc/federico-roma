@@ -139,7 +139,11 @@
     "ctaText": "Ready to take the next step? Message me and let's start together."
   },
   "gallery": {
-    "title": "Media Gallery"
+    "title": "Media Gallery",
+    "peleando": "Fighting",
+    "entrenando": "Training",
+    "dandoClases": "Teaching classes",
+    "destacados": "Featured moments"
   },
   "testimonial": {
     "claudio": {
@@ -155,8 +159,8 @@
       "text": "Testimony pending."
     },
     "elizondo": {
-      "title": "Subtítulo pending",
-      "text": "Testimony pending."
+      "title": "Kickboxing Instructor",
+      "text": "Forever grateful to Fede Roma, who believed in me from the very beginning and supported me in every way to help me reach both athletic and personal goals. Today, I’m a semi-professional fighter, instructor, and black belt in kickboxing. I also founded our own Dojo Serpiente branch in the city of Salto, Buenos Aires. Thank you for everything, Fede."
     },
     "carolina": {
       "title": "Subtítulo pending",
@@ -188,8 +192,12 @@
     }
   },
   "sponsors": {
-    "title": "Sponsors",
-    "description": "Thanks to the brands and institutions that support my career and help me grow as a professional athlete."
+    "title": "Official Sponsors",
+    "subtitle": "Brands that support my journey as a fighter and coach.",
+    "description": "Thanks to the brands and institutions that support my career and help me grow as a professional athlete.",
+    "line1": "Professional gear for combat sports.",
+    "line2": "Products made by and for fighters, from Argentina to the world.",
+    "footerNote": "Thanks to those who make continued growth possible."
   },
   "contact": {
     "title": "Want to contact me for something professional?",

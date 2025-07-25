@@ -62,7 +62,11 @@
     "ctaText": "¿Listo para dar el siguiente paso? Escribime y arrancamos juntos."
   },
   "gallery": {
-    "title": "Galería Multimedia"
+    "title": "Galería Multimedia",
+    "peleando": "Peleando",
+    "entrenando": "Entrenando",
+    "dandoClases": "Dando clases",
+    "destacados": "Momentos destacados"
   },
   "testimonials": {
     "title": "Testimonios",
@@ -87,7 +91,11 @@
   },
   "sponsors": {
     "title": "Sponsors Oficiales",
-    "description": "Federico está orgullosamente respaldado por estas marcas que comparten su visión de excelencia, disciplina y alto rendimiento."
+    "subtitle": "Marcas que acompañan mi camino como peleador y coach.",
+    "description": "Federico está orgullosamente respaldado por estas marcas que comparten su visión de excelencia, disciplina y alto rendimiento.",
+    "line1": "Equipamiento profesional para deportes de combate.",
+    "line2": "Productos hechos por y para peleadores, desde Argentina hacia el mundo.",
+    "footerNote": "Gracias a quienes hacen posible seguir creciendo."
   },
   "contact": {
     "title": "¿Querés contratarme para un evento,\nseminario o proyecto profesional?",
@@ -249,8 +257,8 @@
       "text": "Testimonio pendiente."
     },
     "elizondo": {
-      "title": "Subtítulo pendiente",
-      "text": "Testimonio pendiente"
+      "title": "Instructor de Kickboxing",
+      "text": "Siempre agradecido con Fede Roma, que desde el principio confió en mí y fue un apoyo fundamental tanto en lo deportivo como en lo personal para alcanzar mis objetivos. Hoy soy competidor semi profesional, instructor y cinturón negro de kickboxing. Fundamos nuestra propia sede del Dojo Serpiente en la ciudad de Salto, Buenos Aires. ¡Muchas gracias por todo, Fede!"
     },
     "munoz": {
       "title": "Subtítulo pendiente",
