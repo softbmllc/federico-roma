@@ -95,6 +95,11 @@
     "description": "Federico está orgullosamente respaldado por estas marcas que comparten su visión de excelencia, disciplina y alto rendimiento.",
     "line1": "Equipamiento profesional para deportes de combate.",
     "line2": "Productos hechos por y para peleadores, desde Argentina hacia el mundo.",
+    "dojoSerpiente": {
+      "line1": "Escuela madre y afiliación oficial de Federico Roma.",
+      "line2": "Fundado en 2005 por Cristián “La Serpiente” Bosch,",
+      "line3": "la academia de Kick Boxing y Muay Thai más grande de Latinoamérica."
+    },
     "footerNote": "Gracias a quienes hacen posible seguir creciendo."
   },
   "contact": {
@@ -250,7 +255,7 @@
     },
     "franco": {
       "title": "Campeón Mundial",
-      "text": "Testimonio pendiente."
+      "text": "No fue fácil… nunca lo fue. Pero acá estoy.\nCargué con silencios, con dudas, con heridas que nadie vio. Me caí muchas veces, algunas tan fuerte que pensé que no iba a poder volver a levantarme. Pero siempre lo hice. No por orgullo, sino por necesidad.\nLuché solo muchas veces. Sin aplausos, sin testigos. Y en cada caída, en cada noche oscura, me hice más fuerte. Aprendí a confiar en mí, a sostenerme cuando todo parecía venirse abajo.\nHoy no soy invencible, pero sí valiente. Porque sigo, a pesar del dolor, del miedo y de las veces que dudé. Porque elegí no dejarme vencer, y eso es lo que me define.\nMi historia no es perfecta, pero está hecha de verdad. Y si mi camino puede dar fuerza a alguien que hoy está en el suelo, entonces todo valió la pena."
     },
     "florencia": {
       "title": "Campeona Nacional de Kickboxing",
@@ -285,6 +290,10 @@
       "text": "La verdad que Fede Roma fue una de las personas más importantes que me guió en este hermoso camino del deporte de contacto.\nEs esa persona que confió en mí y en mis compañeros cuando no éramos nada.\nSoy de Salto, en el interior de la provincia de Buenos Aires, donde por ahí las oportunidades no son las mismas, y sin embargo él nos brindó todo su apoyo y conocimiento para que podamos capacitarnos y ser parte de su equipo.\nHoy en día soy profesor de kickboxing, graduado en la mejor academia de artes marciales: Dojo Serpiente. Un sueño hecho realidad.\nPor eso, en honor a todo lo que hizo y sigue haciendo por nosotros, es que nuestra escuela lleva su nombre: 'Esc. Federico Roma'. Hoy cuenta con más de 60 alumnos, de los cuales varios ya están compitiendo a un nivel muy bueno.\n¡Gracias! Seguimos progresando junto a él. A pesar de la distancia, su comunicación es diaria, dando indicaciones para cada situación o entrenamiento.\nUna gran persona con muchos valores y un ejemplo para todos."
     },
     "gastongiraudo": {
+      "title": "Subtítulo pendiente",
+      "text": "Testimonio pendiente"
+    },
+    "delfina": {
       "title": "Subtítulo pendiente",
       "text": "Testimonio pendiente"
     }

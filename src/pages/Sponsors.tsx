@@ -14,22 +14,62 @@ export default function Sponsors() {
 
       <div className="min-h-screen flex flex-col">
         <section className="bg-gray-50 pt-[120px] sm:pt-24 pb-24 px-4 flex-grow">
-          <div className="max-w-6xl mx-auto text-center">
+          <div className="max-w-6xl mx-auto text-center text-left">
             <h2 className="text-4xl font-bold text-black">{t("sponsors.title")}</h2>
             <p className="text-gray-600 mt-2">{t("sponsors.subtitle")}</p>
 
-            <div className="mt-12 flex flex-col sm:flex-row gap-y-4 sm:gap-6 items-center sm:items-start justify-center">
+            {/* Sponsor institucional - Dojo Serpiente */}
+            <div className="mt-12 grid grid-cols-[150px_1fr] gap-6 items-start justify-center">
               {/* Logo */}
-              <div className="flex justify-center md:justify-center items-center md:items-start">
+              <div className="w-[150px] max-h-[150px]">
+                <img
+                  src="/images/dojo-serpiente-logo.png"
+                  alt="Dojo Serpiente logo"
+                  className="w-[150px] max-h-[150px] drop-shadow-sm object-contain"
+                />
+              </div>
+              {/* Info */}
+              <div className="flex flex-col items-start text-left">
+                <h3 className="text-2xl md:text-3xl font-semibold uppercase tracking-wide text-black">
+                  DOJO SERPIENTE
+                </h3>
+                <p className="mt-2 md:mt-3 text-gray-700 text-sm md:text-base">
+                  {t("sponsors.dojoSerpiente.line1")} <br />
+                  {t("sponsors.dojoSerpiente.line2")} <br />
+                  {t("sponsors.dojoSerpiente.line3")}
+                </p>
+                <div className="mt-4 flex flex-col sm:flex-row w-full sm:w-auto items-center gap-3">
+                  <a
+                    href="https://www.instagram.com/dojoserpienteok?igsh=aDE4bmRic2cwNWlp"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition w-full sm:w-auto text-sm font-medium"
+                  >
+                    Instagram
+                  </a>
+                  <a
+                    href="https://dojoserpiente.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition w-full sm:w-auto text-sm font-medium"
+                  >
+                    Sitio Web
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-12 grid grid-cols-[150px_1fr] gap-6 items-start justify-center">
+              {/* Logo */}
+              <div className="w-[150px] max-h-[150px]">
                 <img
                   src="/images/huracan-logo-main.png"
                   alt="Huracan Premium logo"
-                  className="w-[100px] sm:w-[150px] max-h-[100px] sm:max-h-[150px] drop-shadow-sm object-contain"
+                  className="w-[150px] max-h-[150px] drop-shadow-sm object-contain"
                 />
               </div>
-
               {/* Info */}
-              <div className="text-center md:text-left mt-6 md:mt-0">
+              <div className="flex flex-col items-start text-left">
                 <h3 className="text-2xl md:text-3xl font-semibold uppercase tracking-wide text-black">
                   HURACAN Premium ®
                 </h3>

@@ -107,6 +107,18 @@ export const testimonials: Record<"es" | "en", Testimonial[]> = {
       photos: [],
       instagram: "https://www.instagram.com/mauri_e_borda/",
     },
+    {
+      id: "delfina",
+      name: "Delfina Brautigam",
+      title: "testimonial.delfina.title",
+      text: "testimonial.delfina.text",
+      photos: [
+        "/images/testimonios/delfina1.jpg",
+        "/images/testimonios/delfina2.jpg",
+        "/images/testimonios/delfina3.jpg"
+      ],
+      instagram: "https://www.instagram.com/brautidelfi/",
+    },
   ],
   en: [
     {
@@ -204,6 +216,18 @@ export const testimonials: Record<"es" | "en", Testimonial[]> = {
       text: "testimonial.bordi.text",
       photos: [],
       instagram: "https://www.instagram.com/mauri_e_borda/",
+    },
+    {
+      id: "delfina",
+      name: "Delfina Brautigam",
+      title: "testimonial.delfina.title",
+      text: "testimonial.delfina.text",
+      photos: [
+        "/images/testimonios/delfina1.jpg",
+        "/images/testimonios/delfina2.jpg",
+        "/images/testimonios/delfina3.jpg"
+      ],
+      instagram: "https://www.instagram.com/brautidelfi/",
     },
   ],
 };

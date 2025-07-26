@@ -19,8 +19,20 @@ const GalleryBlock: React.FC<GalleryBlockProps> = ({ title, folder, onImageClick
   }, []);
 
   const images =
-    folder === "trofeos" || folder === "peleando"
+    folder === "trofeos"
       ? ["img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg", "img5.jpg", "img6.jpg"]
+      : folder === "peleando"
+      ? [
+          "img1.jpg",
+          "img2.jpg",
+          "img3.jpg",
+          "img4.jpg",
+          "img5.jpg",
+          "img6.jpg",
+          "img7.jpg",
+          "img8.jpg",
+          "img9.jpg",
+        ]
       : ["img1.jpg", "img2.jpg", "img3.jpg"];
 
   const slides = images.map((img) => ({

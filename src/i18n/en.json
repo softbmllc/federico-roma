@@ -152,7 +152,7 @@
     },
     "franco": {
       "title": "World Champion",
-      "text": "Testimony pending."
+      "text": "It wasn’t easy… it never was. But here I am. I carried silence, doubts, and wounds no one saw. I fell many times — some so hard I thought I wouldn’t get up again. But I always did. Not out of pride, but necessity.\n\nI fought alone many times. No applause, no witnesses. And in every fall, in every dark night, I became stronger. I learned to trust myself, to hold on when everything seemed to fall apart.\n\nToday I’m not invincible, but I’m brave. Because I keep going despite the pain, the fear, and the times I doubted. Because I chose not to be defeated, and that defines me.\n\nMy story isn’t perfect, but it’s true. And if my journey can give strength to someone who’s on the ground today, then it was all worth it."
     },
     "florencia": {
       "title": "National Kickboxing Champion",
@@ -189,6 +189,10 @@
     "gastongiraudo": {
       "title": "Subtitle pending",
       "text": "Testimony pending"
+    },
+    "delfina": {
+      "title": "Subtitle pending",
+      "text": "Testimonial pending"
     }
   },
   "sponsors": {
@@ -197,7 +201,13 @@
     "description": "Thanks to the brands and institutions that support my career and help me grow as a professional athlete.",
     "line1": "Professional gear for combat sports.",
     "line2": "Products made by and for fighters, from Argentina to the world.",
-    "footerNote": "Thanks to those who make continued growth possible."
+    "footerNote": "Thanks to those who make continued growth possible.",
+    "dojoSerpiente": {
+      "title": "Dojo Serpiente",
+      "line1": "Federico Roma’s main school and official affiliation.",
+      "line2": "Founded in 2005 by Cristián “La Serpiente” Bosch,",
+      "line3": "the largest Kickboxing and Muay Thai academy in Latin America."
+    }
   },
   "contact": {
     "title": "Want to contact me for something professional?",
