@@ -37,10 +37,10 @@ export default function Navbar() {
   return (
     <header className="w-full bg-black/70 backdrop-blur-sm text-white shadow-md fixed top-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between" aria-label="Main Navigation">
-        {/* Logo / Nombre */}
+        {/* Logo / Nombre - solo visible en desktop y mobile, oculto en tablet */}
         <Link
           to="/"
-          className="flex items-center gap-2 text-base sm:text-xl font-extrabold tracking-wide text-white uppercase"
+          className="flex items-center gap-2 text-base sm:text-xl font-extrabold tracking-wide text-white uppercase md:hidden xl:flex"
           aria-label="Inicio – Página principal de Federico Roma"
         >
           <img
@@ -51,7 +51,7 @@ export default function Navbar() {
           <span className="leading-none tracking-tight">FEDERICO ROMA</span>
         </Link>
 
-        <div className="flex items-center gap-4 ml-4">
+        <div className="flex items-center gap-4 ml-4 md:hidden xl:flex">
           <a
             href="https://www.instagram.com/federoma_?igsh=MWFqcWM1Nzlwc3FoMg=="
             target="_blank"
@@ -73,7 +73,7 @@ export default function Navbar() {
         </div>
 
         {/* Navegación Desktop */}
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden xl:flex items-center gap-6">
           {routes.map((item) => (
             <NavLink
               key={item.to}
@@ -108,6 +108,74 @@ export default function Navbar() {
               className={i18n.language === "en" ? "text-orange-400" : "hover:text-orange-400"}
             >
               EN
+            </button>
+          </div>
+        </div>
+
+        {/* Navbar Tablet (768px–1279px) */}
+        <div className="hidden md:flex xl:hidden items-center justify-between w-full">
+          {/* Logo + nombre */}
+          <Link
+            to="/"
+            className="flex items-center gap-2 text-base font-extrabold tracking-wide text-white uppercase"
+            aria-label="Inicio – Página principal de Federico Roma"
+          >
+            <img
+              src="/Logo.png"
+              alt="Logo de Federico Roma"
+              className="w-6 h-6 object-contain"
+            />
+            <span className="leading-none tracking-tight">FEDERICO ROMA</span>
+          </Link>
+
+          {/* Contenedor derecho con iconos + idioma + hamburguesa */}
+          <div className="flex items-center gap-3">
+            {/* Instagram */}
+            <a
+              href="https://www.instagram.com/federoma_?igsh=MWFqcWM1Nzlwc3FoMg=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-orange-400 transition text-xl"
+              aria-label="Instagram de Federico Roma"
+            >
+              <FiInstagram />
+            </a>
+
+            {/* WhatsApp */}
+            <a
+              href="https://wa.me/16454442941"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white hover:text-orange-400 transition text-xl"
+              aria-label="WhatsApp de Federico Roma"
+            >
+              <FaWhatsapp />
+            </a>
+
+            {/* Selector de idioma */}
+            <div className="flex items-center gap-2 text-sm font-semibold border border-white px-2 py-1 rounded">
+              <button
+                onClick={() => changeLanguage("es")}
+                className={i18n.language === "es" ? "text-orange-400" : "hover:text-orange-400"}
+              >
+                ES
+              </button>
+              <span>/</span>
+              <button
+                onClick={() => changeLanguage("en")}
+                className={i18n.language === "en" ? "text-orange-400" : "hover:text-orange-400"}
+              >
+                EN
+              </button>
+            </div>
+
+            {/* Botón hamburguesa */}
+            <button
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="text-white text-3xl"
+              aria-label="Abrir menú"
+            >
+              {mobileMenuOpen ? <HiX /> : <HiMenu />}
             </button>
           </div>
         </div>

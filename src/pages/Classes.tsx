@@ -27,7 +27,7 @@ const Classes: React.FC = () => {
 
       <section className="relative w-full bg-black text-white pt-16 pb-20">
         <div className="max-w-6xl mx-auto px-6 md:px-12 lg:px-24">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 lg:gap-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-12">
             <div className="group bg-[#111] p-6 md:p-8 rounded-lg shadow-lg border border-gray-800 transform transition-transform duration-300 hover:scale-105 hover:shadow-orange-500/50">
               <div className="flex items-center mb-4 text-orange-500">
                 <FiUser className="w-8 h-8 md:w-10 md:h-10 transition-transform duration-300 group-hover:scale-110" />
