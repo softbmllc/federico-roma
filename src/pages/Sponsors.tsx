@@ -53,7 +53,7 @@ export default function Sponsors() {
                     rel="noopener noreferrer"
                     className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition w-full sm:w-auto text-sm font-medium"
                   >
-                    Sitio Web
+                    {t("sponsors.buttonWebsite")}
                   </a>
                 </div>
               </div>
@@ -93,6 +93,45 @@ export default function Sponsors() {
                     className="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition w-full sm:w-auto text-sm font-medium"
                   >
                     WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-12 grid grid-cols-[150px_1fr] gap-6 items-start justify-center">
+              {/* Logo */}
+              <div className="w-[150px] max-h-[150px]">
+                <img
+                  src="/images/boating-adventures-logo.png"
+                  alt="Boating Adventures Miami logo"
+                  className="w-[150px] max-h-[150px] drop-shadow-sm object-contain"
+                />
+              </div>
+              {/* Info */}
+              <div className="flex flex-col items-start text-left">
+                <h3 className="text-2xl md:text-3xl font-semibold uppercase tracking-wide text-black">
+                  BOATING ADVENTURES MIAMI
+                </h3>
+                <p className="mt-2 md:mt-3 text-gray-700 text-sm md:text-base">
+                  {t("sponsors.boating.line1")} <br />
+                  {t("sponsors.boating.line2")}
+                </p>
+                <div className="mt-4 flex flex-col sm:flex-row w-full sm:w-auto items-center gap-3">
+                  <a
+                    href="https://www.instagram.com/boating.adventuresmiami/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition w-full sm:w-auto text-sm font-medium"
+                  >
+                    Instagram
+                  </a>
+                  <a
+                    href="https://boatingadventuresmiami.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition w-full sm:w-auto text-sm font-medium"
+                  >
+                    {t("sponsors.buttonWebsite")}
                   </a>
                 </div>
               </div>
