@@ -96,15 +96,23 @@ export const testimonials: Record<"es" | "en", Testimonial[]> = {
       name: "Nicolás Nofri",
       title: "testimonial.nofri.title",
       text: "testimonial.nofri.text",
-      photos: [],
+      photos: [
+        "/images/testimonios/nofri1.jpg",
+        "/images/testimonios/nofri2.jpg",
+        "/images/testimonios/nofri3.jpg"
+      ],
       instagram: "https://www.instagram.com/nico_nofri/",
     },
     {
       id: "bordi",
-      name: "Mauricio Bordi",
+      name: "Mauricio Borda",
       title: "testimonial.bordi.title",
       text: "testimonial.bordi.text",
-      photos: [],
+      photos: [
+        "/images/testimonios/bordi1.jpg",
+        "/images/testimonios/bordi2.jpg",
+        "/images/testimonios/bordi3.jpg",
+      ],
       instagram: "https://www.instagram.com/mauri_e_borda/",
     },
     {
@@ -119,6 +127,18 @@ export const testimonials: Record<"es" | "en", Testimonial[]> = {
       ],
       instagram: "https://www.instagram.com/brautidelfi/",
     },
+    {
+      id: "macbeth",
+      name: "Gonzalo Macbeth",
+      title: "testimonial.macbeth.title",
+      text: "testimonial.macbeth.text",
+      photos: [
+        "/images/testimonios/macbeth1.jpg",
+        "/images/testimonios/macbeth2.jpg",
+        "/images/testimonios/macbeth3.jpg"
+      ],
+      instagram: "https://www.instagram.com/dsteammacbeth/",
+    }
   ],
   en: [
     {
@@ -206,15 +226,23 @@ export const testimonials: Record<"es" | "en", Testimonial[]> = {
       name: "Nicolás Nofri",
       title: "testimonial.nofri.title",
       text: "testimonial.nofri.text",
-      photos: [],
+      photos: [
+        "/images/testimonios/nofri1.jpg",
+        "/images/testimonios/nofri2.jpg",
+        "/images/testimonios/nofri3.jpg"
+      ],
       instagram: "https://www.instagram.com/nico_nofri/",
     },
     {
       id: "bordi",
-      name: "Mauricio Bordi",
+      name: "Mauricio Borda",
       title: "testimonial.bordi.title",
       text: "testimonial.bordi.text",
-      photos: [],
+      photos: [
+        "/images/testimonios/bordi1.jpg",
+        "/images/testimonios/bordi2.jpg",
+        "/images/testimonios/bordi3.jpg",
+      ],
       instagram: "https://www.instagram.com/mauri_e_borda/",
     },
     {
@@ -229,5 +257,17 @@ export const testimonials: Record<"es" | "en", Testimonial[]> = {
       ],
       instagram: "https://www.instagram.com/brautidelfi/",
     },
+    {
+      id: "macbeth",
+      name: "Gonzalo Macbeth",
+      title: "testimonial.macbeth.title",
+      text: "testimonial.macbeth.text",
+      photos: [
+        "/images/testimonios/macbeth1.jpg",
+        "/images/testimonios/macbeth2.jpg",
+        "/images/testimonios/macbeth3.jpg"
+      ],
+      instagram: "https://www.instagram.com/dsteammacbeth/",
+    }
   ],
 };

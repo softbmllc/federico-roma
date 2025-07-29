@@ -39,7 +39,11 @@ const TestimonialCard: React.FC<Props> = ({ testimonial }) => {
               key={idx}
               src={src}
               alt={`Foto de ${name} ${idx + 1}`}
-              className="w-full aspect-[4/3] object-cover object-top rounded hover:scale-[1.02] transition-transform duration-300 ease-in-out hover:brightness-110 hover:contrast-125"
+              className={`w-full aspect-[4/3] object-cover rounded hover:scale-[1.02] transition-transform duration-300 ease-in-out hover:brightness-110 hover:contrast-125 ${
+                src.includes("franco2") || src.includes("delfina2") || src.includes("macbeth2")
+                  ? "object-[center_35%]"
+                  : "object-top"
+              }`}
             />
           ))}
         </div>

@@ -67,17 +67,32 @@ const Contact = () => {
         )}
 
         <form
-          action="https://formspree.io/f/xyzpejqd"
-          method="POST"
           className="space-y-4"
-          onSubmit={(e) => {
-            if (!validateForm()) {
-              e.preventDefault();
+          onSubmit={async (e) => {
+            e.preventDefault();
+            if (!validateForm()) return;
+
+            try {
+              const response = await fetch("https://formspree.io/f/xyzpejqd", {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  Accept: "application/json"
+                },
+                body: JSON.stringify(formData)
+              });
+
+              if (response.ok) {
+                setSubmitted(true);
+                setFormData({ name: "", phone: "", email: "", message: "" });
+              } else {
+                console.error("Error sending form");
+              }
+            } catch (error) {
+              console.error("Error submitting form:", error);
             }
           }}
         >
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_template" value="box" />
 
           <div>
             <input
@@ -125,7 +140,6 @@ const Contact = () => {
             {errors.message && <p className="text-red-500 text-sm mt-1">{errors.message}</p>}
           </div>
 
-          <input type="hidden" name="_next" value="https://federico-roma.vercel.app/contact?success=true" />
           <button
             type="submit"
             className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-2 px-6 rounded transition-colors duration-200"

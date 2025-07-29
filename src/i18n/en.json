@@ -156,10 +156,10 @@
     },
     "florencia": {
       "title": "National Kickboxing Champion",
-      "text": "Testimony pending."
+      "text": "Training with Fede and fighting under his guidance was the best thing that happened to me in my sports career. He taught me what discipline means, how to trust in myself, to work for what I want, and not to give up in the face of adversity.\n\nI must say I was — and still am — privileged to have someone like him guide me in my journey and place his trust in me. He’s an excellent person!"
     },
     "elizondo": {
-      "title": "Kickboxing Instructor",
+      "title": "Instructor of Kickboxing",
       "text": "Forever grateful to Fede Roma, who believed in me from the very beginning and supported me in every way to help me reach both athletic and personal goals. Today, I’m a semi-professional fighter, instructor, and black belt in kickboxing. I also founded our own Dojo Serpiente branch in the city of Salto, Buenos Aires. Thank you for everything, Fede."
     },
     "carolina": {
@@ -175,15 +175,11 @@
       "text": "Testimonial pending"
     },
     "nofri": {
-      "title": "Kickboxing instructor",
-      "text": "Testimonial pending"
-    },
-    "bordi": {
-      "title": "Subtitle pending",
-      "text": "Testimonial pending"
+      "title": "Instructor of Kickboxing",
+      "text": "Fede was one of the best people — if not the best — that I’ve met in this sport, both professionally and personally. He guided me toward my athletic goals, helping with both physical and technical preparation. I’m truly thankful to Fede for believing in me and giving me a real opportunity."
     },
     "gustavo": {
-      "title": "Kickboxing Instructor",
+      "title": "Instructor of Kickboxing",
       "text": "Fede Roma was one of the most important people who guided me on this beautiful path of combat sports. He believed in me and my teammates when we were just starting out. I'm from Salto, a small town in the province of Buenos Aires, where opportunities aren’t always the same. But he supported us and shared his knowledge so we could train and be part of his team. Today, I’m a kickboxing instructor, graduated from one of the top martial arts academies — Dojo Serpiente. A dream come true. That’s why, to honor everything he’s done and continues to do for us, our school is named after him: 'Esc. Federico Roma'. Today, it has over 60 students, many of whom are already competing at a very good level. Thank you, Fede! We keep progressing thanks to his guidance — even from a distance, he’s always communicating and offering advice for every situation and training. A great person with strong values and a true role model!"
     },
     "gastongiraudo": {
@@ -191,8 +187,16 @@
       "text": "Testimony pending"
     },
     "delfina": {
-      "title": "Subtitle pending",
-      "text": "Testimonial pending"
+      "title": "Fighter and Kickboxing Instructor",
+      "text": "Fede was a key part of my personal and athletic growth. Thanks to his guidance and dedication, I achieved many of my goals. But the most valuable thing he taught me was to believe in myself and develop a sense of confidence I didn’t have before. I’m deeply grateful for everything he helped me build — both in and out of the ring."
+    },
+    "bordi": {
+      "title": "Instructor of Kickboxing",
+      "text": "I had the honor of having Fede as a teacher and guide — someone who truly marked a before and after in my journey as an athlete. He helped me improve in many areas that I now pass on to my own students. Infinitely grateful."
+    },
+    "macbeth": {
+      "title": "Instructor of Kickboxing",
+      "text": "I can only express gratitude toward Fede. He’s a true champion in every sense of the word. Behind that fierce competitor who always gives his all in epic fights, there’s a great person with tremendous humility. I’ve learned so much from Fede — he’s always willing to help, guide and advise me on this journey. Thanks to him, I’m where I am today: running a Dojo Serpiente branch in Paraná. I’ll always be grateful and wish him the very best."
     }
   },
   "sponsors": {
@@ -207,7 +211,13 @@
       "line1": "Federico Roma’s main school and official affiliation.",
       "line2": "Founded in 2005 by Cristián “La Serpiente” Bosch,",
       "line3": "the largest Kickboxing and Muay Thai academy in Latin America."
-    }
+    },
+    "boating": {
+      "line1": "Premium boat rides in Miami.",
+      "line2": "Enjoy the sea, the views, and water sports from a unique perspective."
+    },
+    "buttonWebsite": "Website",
+    "website": "Website"
   },
   "contact": {
     "title": "Want to contact me for something professional?",

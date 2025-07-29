@@ -100,7 +100,12 @@
       "line2": "Fundado en 2005 por Cristián “La Serpiente” Bosch,",
       "line3": "la academia de Kick Boxing y Muay Thai más grande de Latinoamérica."
     },
-    "footerNote": "Gracias a quienes hacen posible seguir creciendo."
+    "boating": {
+      "line1": "Paseos premium en bote por Miami.",
+      "line2": "Disfrutá del mar, la vista y deportes acuáticos desde una perspectiva única."
+    },
+    "footerNote": "Gracias a quienes hacen posible seguir creciendo.",
+    "buttonWebsite": "Sitio web"
   },
   "contact": {
     "title": "¿Querés contratarme para un evento,\nseminario o proyecto profesional?",
@@ -160,7 +165,7 @@
     "earlySteps": {
       "title": "Mis primeros pasos en el deporte",
       "p1": "Desde chico fui muy deportista. Siempre estaba haciendo algo: correr, saltar, jugar. A los 5 años empecé con el tenis. No pasaba la red, arrastraba la raqueta, pero le quería pegar a todas las pelotitas. Lo que arrancó como algo casual terminó durando 10 años.",
-      "p2": "Una vez, mientras entrenaba, pisé una pelotita sin verla. Me fui para atrás y caí con todo el peso sobre la pierna. Me fracturé la tibia. Fue una fractura jodida, estuve seis meses con sello. Pero al día siguiente fui igual a entrenar en silla de ruedas, con sello y todo. Los profes me tenían mucha paciencia."
+      "p2": "Una vez, mientras entrenaba, pisé una pelotita sin verla. Me fui para atrás y caí con todo el peso sobre la pierna. Me fracturé la tibia. Fue una fractura jodida, estuve seis meses con yeso. Pero al día siguiente fui igual a entrenar en silla de ruedas, con yeso y todo. Los profes me tenían mucha paciencia."
     },
     "infancyDiscipline": {
       "title": "Mi infancia: disciplina, películas y artes marciales",
@@ -249,6 +254,10 @@
   },
 
   "testimonial": {
+    "macbeth": {
+      "title": "Instructor de Kickboxing",
+      "text": "Solo tengo palabras de agradecimiento para con Fede. Es un campeón con todas las letras. Detrás de ese competidor aguerrido, que siempre deja todo en cada pelea haciendo peleas épicas, hay una gran persona con una humildad tremenda. Aprendí muchísimo de Fede; siempre está predispuesto a ayudarme, guiarme y aconsejarme en este camino. Gracias a él estoy donde estoy, siendo una sede del Dojo Serpiente en Paraná. Siempre estaré agradecido con Fede y le deseo el mayor de los éxitos."
+    },
     "claudio": {
       "title": "Campeón Mundial Amateur",
       "text": "Quiero agradecer a Fede Roma por su apoyo en mi camino hacia los objetivos deportivos. Su guía me ha ayudado a alcanzar metas personales y mejorar mi condición física. Gracias por la motivación y el apoyo constante. Estoy feliz de seguir trabajando hacia más objetivos. El cambio en mi peso corporal ha sido notable y me siento más fuerte. Gracias, Fede, por creer en mí."
@@ -259,7 +268,7 @@
     },
     "florencia": {
       "title": "Campeona Nacional de Kickboxing",
-      "text": "Testimonio pendiente."
+      "text": "Entrenar con Fede y pelear bajo su dirección fue lo mejor que me pasó en mi carrera deportiva. Me enseñó qué significa la disciplina, a confiar en mí misma, a trabajar por lo que deseo y a no bajar los brazos ante las adversidades.\n\nPuedo decir que fui —y soy— una privilegiada de haber contado con alguien como él guiando mi camino, confiando en mí desde el primer momento. ¡Una persona excelente!"
     },
     "elizondo": {
       "title": "Instructor de Kickboxing",
@@ -274,19 +283,15 @@
       "text": "Testimonio pendiente"
     },
     "nofri": {
-      "title": "Profesor de kickboxing",
-      "text": "Testimonio pendiente"
-    },
-    "bordi": {
-      "title": "Subtítulo pendiente",
-      "text": "Testimonio pendiente"
+      "title": "Instructor de kickboxing",
+      "text": "Fede fue una de las mejores personas —si no la mejor— que conocí en este deporte, tanto en lo profesional como en lo personal. Me guió para alcanzar mis metas deportivas, acompañándome en la preparación física y técnica. Muchas gracias a Fede por confiar en mí y darme una oportunidad."
     },
     "irioni": {
       "title": "Peleador Profesional · Campeón Argentino",
       "text": "Fede Roma, mi gran profe o el shuper como le digo yo. Es la persona quien me marcó un antes y un después tanto en el deporte como en mi vida, gracias a él hoy soy quien soy.\nLogré cumplir muchos sueños por tenerlo como profe, y logré uno muy grande que es trabajar en el Dojo Serpiente, uno de los más importantes del mundo.\nGracias a su humildad, paciencia y sobre todo amor al dar clases me hizo creer que puedo lograr todo lo que me proponga en la vida."
     },
     "gustavo": {
-      "title": "Profesor de Kickboxing",
+      "title": "Instructor de Kickboxing",
       "text": "La verdad que Fede Roma fue una de las personas más importantes que me guió en este hermoso camino del deporte de contacto.\nEs esa persona que confió en mí y en mis compañeros cuando no éramos nada.\nSoy de Salto, en el interior de la provincia de Buenos Aires, donde por ahí las oportunidades no son las mismas, y sin embargo él nos brindó todo su apoyo y conocimiento para que podamos capacitarnos y ser parte de su equipo.\nHoy en día soy profesor de kickboxing, graduado en la mejor academia de artes marciales: Dojo Serpiente. Un sueño hecho realidad.\nPor eso, en honor a todo lo que hizo y sigue haciendo por nosotros, es que nuestra escuela lleva su nombre: 'Esc. Federico Roma'. Hoy cuenta con más de 60 alumnos, de los cuales varios ya están compitiendo a un nivel muy bueno.\n¡Gracias! Seguimos progresando junto a él. A pesar de la distancia, su comunicación es diaria, dando indicaciones para cada situación o entrenamiento.\nUna gran persona con muchos valores y un ejemplo para todos."
     },
     "gastongiraudo": {
@@ -294,8 +299,12 @@
       "text": "Testimonio pendiente"
     },
     "delfina": {
-      "title": "Subtítulo pendiente",
-      "text": "Testimonio pendiente"
+      "title": "Peleadora e Instructora de Kickboxing",
+      "text": "Fede fue una pieza clave en mi crecimiento tanto personal como deportivo. Gracias a su guía y compromiso, logré alcanzar muchos de mis objetivos. Pero lo más valioso que me enseñó fue a confiar en mí misma y a desarrollar una seguridad que antes no tenía. Estoy profundamente agradecida por todo lo que me ayudó a construir, dentro y fuera del ring."
+    },
+    "bordi": {
+      "title": "Profesor de Kickboxing",
+      "text": "Tuve el honor de tener como profe y guía a un grande como Fede. Sin dudas me marcó un antes y un después como deportista, ayudándome a mejorar en muchos aspectos que hoy puedo transmitir a mis alumnos. ¡Infinitamente agradecido!"
     }
   }
 }
